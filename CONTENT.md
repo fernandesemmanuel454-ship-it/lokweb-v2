@@ -218,7 +218,7 @@ Sans engagement, sans blabla.
 
 **Titre :** Contact
 
-**Email :** contact@lokweb.lu
+**Email :** info@lokweb.lu
 **Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
 **Disponibilité :** Lundi – Vendredi, 9 h – 18 h
 

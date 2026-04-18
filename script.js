@@ -93,19 +93,20 @@ if (contactForm) {
         headers: { 'Accept': 'application/json' }
       });
 
-      if (res.ok) {
-        contactForm.innerHTML =
-          '<div style="text-align:center;padding:40px 0;">' +
-          '<p style="font-size:1.1rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;">Message envoyé avec succès.</p>' +
-          '<p style="font-size:.9rem;color:var(--text-muted);">On vous répond sous 24\u00A0h.</p>' +
-          '</div>';
-      } else {
-        throw new Error('Erreur serveur');
-      }
+      if (!res.ok) throw new Error('Erreur serveur');
+
+      contactForm.innerHTML =
+        '<div style="text-align:center;padding:40px 0;">' +
+        '<p style="font-size:1.1rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;">Message envoyé avec succès.</p>' +
+        '<p style="font-size:.9rem;color:var(--text-muted);">On vous répond sous 24\u00A0h.</p>' +
+        '</div>';
     } catch (err) {
-      btn.disabled = false;
-      btn.innerHTML = originalText;
-      alert('Impossible d\u2019envoyer le message. Réessayez ou écrivez à contact@lokweb.lu.');
+      alert('Impossible d\u2019envoyer le message. Réessayez ou écrivez à info@lokweb.lu.');
+    } finally {
+      if (btn.isConnected) {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+      }
     }
   });
 }

@@ -552,6 +552,13 @@ img { max-width: 100%; display: block; }
 .contact-item a:hover { color: var(--primary); }
 
 .contact-form { display: flex; flex-direction: column; gap: 16px; }
+.hp-field {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px; height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
 .form-group { display: flex; flex-direction: column; gap: 6px; }
 .form-group label { font-size: .82rem; font-weight: 600; color: var(--text-dark); }
 .form-group input, .form-group textarea {

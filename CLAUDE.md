@@ -2,7 +2,7 @@
 
 ## Propriétaire
 Emmanuel Fernandes
-Email : contact@lokweb.lu
+Email : info@lokweb.lu
 Agence : LokWeb — 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
 
 ## Qu'est-ce que LokWeb
@@ -70,7 +70,7 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 - Toujours « 49 €/mois », jamais « 49€/mois »
 - Un seul CTA primaire par vue
 - PAS de vert WhatsApp (#25D366)
-- UNE SEULE adresse email partout : contact@lokweb.lu
+- UNE SEULE adresse email partout : info@lokweb.lu
 
 ## Structure de la page d'accueil (dans l'ordre)
 
