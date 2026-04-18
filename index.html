@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LokWeb — Votre site professionnel au Luxembourg, en ligne la semaine prochaine</title>
+  <meta name="description" content="Agence web luxembourgeoise. Site professionnel livré en 7 jours, à partir de 49 €/mois, sans engagement. Création, hébergement et maintenance inclus.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.lokweb.lu/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.lokweb.lu/">
+  <meta property="og:title" content="LokWeb — Votre site en ligne la semaine prochaine">
+  <meta property="og:description" content="Site professionnel livré en 7 jours, à partir de 49 €/mois, sans engagement. Pensé, conçu et livré depuis le Luxembourg.">
+  <meta property="og:locale" content="fr_LU">
+  <meta property="og:site_name" content="LokWeb">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LokWeb — Votre site en ligne la semaine prochaine">
+  <meta name="twitter:description" content="Site professionnel livré en 7 jours, à partir de 49 €/mois, sans engagement.">
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232F5CFF'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Inter,sans-serif' font-weight='700' font-size='18'>L</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "LokWeb",
+    "description": "Agence web luxembourgeoise. Création de sites professionnels en abonnement mensuel.",
+    "url": "https://www.lokweb.lu",
+    "email": "contact@lokweb.lu",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "19 rue Aloyse Kayser",
+      "addressLocality": "Schifflange",
+      "postalCode": "L-3852",
+      "addressCountry": "LU"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Luxembourg"
+    },
+    "priceRange": "49 €–249 €/mois"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo">Lok<span>Web</span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#comment-ca-marche">Comment ça marche</a>
+        <a href="#services">Services</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-sm">Recevoir ma démo</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content fade-up">
+        <span class="badge">Agence web au Luxembourg</span>
+        <h1>Votre site en ligne <em>la semaine prochaine.</em></h1>
+        <p class="hero-sub">On crée votre site gratuitement. Vous payez uniquement l'abonnement, dès 49&nbsp;€/mois. Sans engagement, livré en 7 jours.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Recevoir ma démo <i data-lucide="arrow-right"></i></a>
+          <a href="#realisations" class="btn btn-outline">Nos réalisations</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">7 jours</span>
+            <span class="stat-label">Mise en ligne</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">0&nbsp;€</span>
+            <span class="stat-label">Création offerte</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">49&nbsp;€/mois</span>
+            <span class="stat-label">Abonnement tout compris</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual fade-up" style="animation-delay:.15s">
+        <div class="hero-mockup" id="hero-carousel" aria-label="Aperçu de nos réalisations">
+          <div class="mockup-bar">
+            <span class="mockup-dot mockup-dot-red"></span>
+            <span class="mockup-dot mockup-dot-yellow"></span>
+            <span class="mockup-dot mockup-dot-green"></span>
+            <span class="mockup-url" id="mockup-url">schmoett.lu</span>
+          </div>
+          <div class="mockup-body">
+            <div class="carousel-track" aria-live="polite">
+              <img class="carousel-slide is-active" src="public/images/schmoett.png" alt="Site Schmoett — restaurant à Schifflange" data-url="schmoett.lu" loading="eager" decoding="async">
+              <img class="carousel-slide" src="public/images/drixlux.png" alt="Site Drix Lux — livraison d'alcool premium" data-url="drixlux.lu" loading="lazy" decoding="async">
+              <img class="carousel-slide" src="public/images/elisahealth.png" alt="Site Elisa Health — santé & bien-être" data-url="elisahealth.eu" loading="lazy" decoding="async">
+            </div>
+            <span class="mockup-credit">Réalisation LokWeb</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMMENT ÇA MARCHE ========== -->
+  <section id="comment-ca-marche" class="section section-light">
+    <div class="container">
+      <span class="section-label fade-up">Simple et rapide</span>
+      <h2 class="section-title fade-up">Comment ça marche</h2>
+      <div class="steps">
+        <div class="step fade-up">
+          <div class="step-number">1</div>
+          <h3>Échange</h3>
+          <p>On discute de votre activité, vos besoins et vos objectifs. 15 minutes suffisent.</p>
+        </div>
+        <div class="step fade-up" style="animation-delay:.1s">
+          <div class="step-number">2</div>
+          <h3>Maquette</h3>
+          <p>Vous recevez une maquette gratuite de votre futur site sous 24&nbsp;h. Sans engagement.</p>
+        </div>
+        <div class="step fade-up" style="animation-delay:.2s">
+          <div class="step-number">3</div>
+          <h3>Développement</h3>
+          <p>On construit votre site avec le contenu que vous nous fournissez. Vous validez chaque étape.</p>
+        </div>
+        <div class="step fade-up" style="animation-delay:.3s">
+          <div class="step-number">4</div>
+          <h3>Mise en ligne</h3>
+          <p>Votre site est en ligne en 7 jours. On s'occupe de l'hébergement et de la maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section section-dark">
+    <div class="container">
+      <span class="section-label fade-up">Tout inclus</span>
+      <h2 class="section-title fade-up">Ce qu'on fait pour vous</h2>
+      <div class="services-grid">
+        <div class="service-card fade-up">
+          <div class="service-icon"><i data-lucide="layout"></i></div>
+          <h3>Design sur mesure</h3>
+          <p>Un site unique qui reflète votre identité. Pas de template générique.</p>
+        </div>
+        <div class="service-card fade-up" style="animation-delay:.05s">
+          <div class="service-icon"><i data-lucide="smartphone"></i></div>
+          <h3>Responsive mobile</h3>
+          <p>Votre site s'adapte parfaitement à tous les écrans : mobile, tablette, desktop.</p>
+        </div>
+        <div class="service-card fade-up" style="animation-delay:.1s">
+          <div class="service-icon"><i data-lucide="search"></i></div>
+          <h3>Référencement SEO</h3>
+          <p>Optimisé pour Google dès le départ. Vos clients vous trouvent facilement.</p>
+        </div>
+        <div class="service-card fade-up" style="animation-delay:.15s">
+          <div class="service-icon"><i data-lucide="server"></i></div>
+          <h3>Hébergement inclus</h3>
+          <p>Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.</p>
+        </div>
+        <div class="service-card fade-up" style="animation-delay:.2s">
+          <div class="service-icon"><i data-lucide="shield"></i></div>
+          <h3>Maintenance continue</h3>
+          <p>Mises à jour, corrections, modifications mineures : on s'occupe de tout.</p>
+        </div>
+        <div class="service-card fade-up" style="animation-delay:.25s">
+          <div class="service-icon"><i data-lucide="zap"></i></div>
+          <h3>Performance optimale</h3>
+          <p>Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POURQUOI LOKWEB ========== -->
+  <section id="pourquoi" class="section section-light">
+    <div class="container">
+      <span class="section-label fade-up">La différence</span>
+      <h2 class="section-title fade-up">Pourquoi pas une agence classique&nbsp;?</h2>
+      <p class="section-sub fade-up">Au Luxembourg, créer un site avec une agence coûte 2&nbsp;000 à 10&nbsp;000&nbsp;€, prend 2 à 6&nbsp;mois et vous engage 24&nbsp;mois. Chez LokWeb, c'est différent.</p>
+
+      <div class="compare fade-up">
+        <div class="compare-row compare-head">
+          <div class="compare-cell compare-label">Critère</div>
+          <div class="compare-cell compare-agency">Agence classique</div>
+          <div class="compare-cell compare-lokweb">LokWeb</div>
+        </div>
+
+        <div class="compare-row">
+          <div class="compare-cell compare-label">Création du site</div>
+          <div class="compare-cell compare-agency"><i data-lucide="x"></i><span>2&nbsp;000 à 10&nbsp;000&nbsp;€</span></div>
+          <div class="compare-cell compare-lokweb"><i data-lucide="check"></i><span>0&nbsp;€ (offerte)</span></div>
+        </div>
+
+        <div class="compare-row">
+          <div class="compare-cell compare-label">Délai</div>
+          <div class="compare-cell compare-agency"><i data-lucide="x"></i><span>2 à 6&nbsp;mois</span></div>
+          <div class="compare-cell compare-lokweb"><i data-lucide="check"></i><span>7&nbsp;jours</span></div>
+        </div>
+
+        <div class="compare-row">
+          <div class="compare-cell compare-label">Engagement</div>
+          <div class="compare-cell compare-agency"><i data-lucide="x"></i><span>12 à 24&nbsp;mois</span></div>
+          <div class="compare-cell compare-lokweb"><i data-lucide="check"></i><span>Sans engagement</span></div>
+        </div>
+
+        <div class="compare-row">
+          <div class="compare-cell compare-label">Tarifs</div>
+          <div class="compare-cell compare-agency"><i data-lucide="x"></i><span>Nous consulter</span></div>
+          <div class="compare-cell compare-lokweb"><i data-lucide="check"></i><span>49&nbsp;€/mois clair</span></div>
+        </div>
+
+        <div class="compare-row">
+          <div class="compare-cell compare-label">Interlocuteur</div>
+          <div class="compare-cell compare-agency"><i data-lucide="x"></i><span>Équipe de 5 à 10</span></div>
+          <div class="compare-cell compare-lokweb"><i data-lucide="check"></i><span>Un seul, dédié</span></div>
+        </div>
+
+        <div class="compare-row">
+          <div class="compare-cell compare-label">Maintenance</div>
+          <div class="compare-cell compare-agency"><i data-lucide="x"></i><span>En option payante</span></div>
+          <div class="compare-cell compare-lokweb"><i data-lucide="check"></i><span>Incluse</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TARIFS ========== -->
+  <section id="tarifs" class="section section-light">
+    <div class="container">
+      <span class="section-label fade-up">Transparent</span>
+      <h2 class="section-title fade-up">Tarifs simples, sans surprise</h2>
+      <div class="pricing-grid">
+
+        <div class="pricing-card fade-up">
+          <h3 class="pricing-name">Essentiel</h3>
+          <div class="pricing-price"><span class="price-amount">49&nbsp;€</span><span class="price-period">/mois</span></div>
+          <p class="pricing-desc">Idéal pour les indépendants et petits commerces.</p>
+          <ul class="pricing-features">
+            <li><i data-lucide="check"></i> Site vitrine jusqu'à 5 pages</li>
+            <li><i data-lucide="check"></i> Design responsive sur mesure</li>
+            <li><i data-lucide="check"></i> Hébergement et maintenance inclus</li>
+            <li><i data-lucide="check"></i> Référencement SEO de base</li>
+            <li><i data-lucide="check"></i> Certificat SSL</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Choisir Essentiel</a>
+        </div>
+
+        <div class="pricing-card pricing-featured fade-up" style="animation-delay:.1s">
+          <span class="pricing-badge">Recommandé</span>
+          <h3 class="pricing-name">Business</h3>
+          <div class="pricing-price"><span class="price-amount">89&nbsp;€</span><span class="price-period">/mois</span></div>
+          <p class="pricing-desc">Pour les entreprises qui veulent se démarquer.</p>
+          <ul class="pricing-features">
+            <li><i data-lucide="check"></i> Site jusqu'à 10 pages</li>
+            <li><i data-lucide="check"></i> Formulaire de contact avancé</li>
+            <li><i data-lucide="check"></i> Intégration Google Maps</li>
+            <li><i data-lucide="check"></i> Référencement SEO avancé</li>
+            <li><i data-lucide="check"></i> Modifications illimitées</li>
+            <li><i data-lucide="check"></i> Support prioritaire</li>
+          </ul>
+          <a href="#contact" class="btn btn-block">Choisir Business</a>
+        </div>
+
+        <div class="pricing-card fade-up" style="animation-delay:.2s">
+          <h3 class="pricing-name">Commande+</h3>
+          <div class="pricing-price"><span class="price-amount">149&nbsp;€</span><span class="price-period">/mois</span></div>
+          <p class="pricing-desc">Pour les restaurants et commerces avec commande en ligne.</p>
+          <ul class="pricing-features">
+            <li><i data-lucide="check"></i> Tout Business inclus</li>
+            <li><i data-lucide="check"></i> Système de commande en ligne</li>
+            <li><i data-lucide="check"></i> Menu digital interactif</li>
+            <li><i data-lucide="check"></i> Notifications par email</li>
+            <li><i data-lucide="check"></i> Tableau de bord commandes</li>
+            <li><i data-lucide="check"></i> Intégration paiement</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Choisir Commande+</a>
+        </div>
+
+      </div>
+      <p class="pricing-note fade-up">Tous les prix sont hors TVA. Aucun frais de création. Sans engagement.</p>
+    </div>
+  </section>
+
+  <!-- ========== RÉALISATIONS ========== -->
+  <section id="realisations" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title fade-up">Nos réalisations</h2>
+      <p class="section-sub fade-up">On a commencé par nos propres business, parce qu'on mange ce qu'on cuisine.</p>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card fade-up">
+          <div class="portfolio-img">
+            <img src="public/images/schmoett.png" alt="Aperçu du site schmoett.lu" loading="lazy" decoding="async">
+          </div>
+          <div class="portfolio-info">
+            <h3>Schmoett</h3>
+            <p>Restaurant · Luxembourg</p>
+            <a href="https://schmoett.lu" target="_blank" rel="noopener" class="portfolio-link" aria-label="Voir le site schmoett.lu (nouvelle fenêtre)">Voir le site <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-card fade-up" style="animation-delay:.1s">
+          <div class="portfolio-img">
+            <img src="public/images/drixlux.png" alt="Aperçu du site drixlux.lu" loading="lazy" decoding="async">
+          </div>
+          <div class="portfolio-info">
+            <h3>Drix Lux</h3>
+            <p>Livraison alcool premium · Luxembourg</p>
+            <a href="https://drixlux.lu" target="_blank" rel="noopener" class="portfolio-link" aria-label="Voir le site drixlux.lu (nouvelle fenêtre)">Voir le site <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-card fade-up" style="animation-delay:.2s">
+          <div class="portfolio-img">
+            <img src="public/images/elisahealth.png" alt="Aperçu du site elisahealth.eu" loading="lazy" decoding="async">
+          </div>
+          <div class="portfolio-info">
+            <h3>Elisa Health</h3>
+            <p>Santé & bien-être · Europe</p>
+            <a href="https://elisahealth.eu" target="_blank" rel="noopener" class="portfolio-link" aria-label="Voir le site elisahealth.eu (nouvelle fenêtre)">Voir le site <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== À PROPOS ========== -->
+  <section id="a-propos" class="section section-light">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual fade-up">
+          <div class="about-avatar" aria-hidden="true">
+            <span class="about-initials">EF</span>
+          </div>
+        </div>
+        <div class="about-content fade-up" style="animation-delay:.1s">
+          <span class="section-label about-label">Fondateur</span>
+          <h2 class="about-title">Emmanuel, entrepreneur luxembourgeois</h2>
+          <p>J'ai lancé LokWeb parce que j'en avais marre de voir des commerçants payer 5&nbsp;000&nbsp;€ pour un site qu'ils n'arrivent même pas à modifier ensuite.</p>
+          <p>Avant LokWeb, j'ai construit Schmoett (restaurant à Schifflange), Drix Lux (livraison d'alcool) et Elisa Health (santé en Europe). Ces sites, je les ai faits moi-même. Je sais ce dont un entrepreneur local a besoin.</p>
+          <p>Avec LokWeb, je fais ce travail pour vous. Création offerte, 49&nbsp;€/mois, un seul interlocuteur&nbsp;: moi.</p>
+          <div class="about-badges">
+            <span class="about-badge"><i data-lucide="map-pin"></i>Basé au Luxembourg</span>
+            <span class="about-badge"><i data-lucide="layout-grid"></i>3&nbsp;sites en production</span>
+            <span class="about-badge"><i data-lucide="user"></i>Un seul interlocuteur</span>
+          </div>
+          <a href="#contact" class="btn btn-outline about-cta">Me contacter directement <i data-lucide="arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS ========== -->
+  <section class="section section-light">
+    <div class="container">
+      <span class="section-label fade-up">Notre méthode</span>
+      <h2 class="section-title fade-up">De l'idée à la mise en ligne</h2>
+      <div class="process-grid">
+        <div class="process-step fade-up">
+          <div class="process-num">01</div>
+          <h3>Échange</h3>
+          <p>Un appel de 15 minutes pour comprendre votre activité et vos besoins.</p>
+        </div>
+        <div class="process-step fade-up" style="animation-delay:.1s">
+          <div class="process-num">02</div>
+          <h3>Maquette</h3>
+          <p>Une proposition visuelle de votre site sous 24&nbsp;h. Gratuit, sans engagement.</p>
+        </div>
+        <div class="process-step fade-up" style="animation-delay:.2s">
+          <div class="process-num">03</div>
+          <h3>Développement</h3>
+          <p>On construit votre site. Vous validez à chaque étape.</p>
+        </div>
+        <div class="process-step fade-up" style="animation-delay:.3s">
+          <div class="process-num">04</div>
+          <h3>Mise en ligne</h3>
+          <p>Votre site est en production. On gère l'hébergement et la maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA FINAL ========== -->
+  <section class="section section-dark section-cta">
+    <div class="container" style="text-align:center">
+      <h2 class="section-title fade-up">Prêt à passer en ligne&nbsp;?</h2>
+      <p class="section-sub fade-up">Recevez une maquette gratuite de votre futur site sous 24&nbsp;h.<br>Sans engagement, sans blabla.</p>
+      <a href="#contact" class="btn btn-lg fade-up" style="animation-delay:.1s">Recevoir ma démo <i data-lucide="arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section section-light">
+    <div class="container">
+      <span class="section-label fade-up">Parlons-en</span>
+      <h2 class="section-title fade-up">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info fade-up">
+          <div class="contact-item">
+            <i data-lucide="mail"></i>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:contact@lokweb.lu">contact@lokweb.lu</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i data-lucide="map-pin"></i>
+            <div>
+              <strong>Adresse</strong>
+              <span>19 rue Aloyse Kayser<br>L-3852 Schifflange, Luxembourg</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i data-lucide="clock"></i>
+            <div>
+              <strong>Disponibilité</strong>
+              <span>Lundi – Vendredi, 9 h – 18 h</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form fade-up" style="animation-delay:.1s" action="https://formspree.io/f/REMPLACER_PAR_ENDPOINT" method="POST">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="votre@email.lu">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Décrivez votre projet en quelques lignes..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Envoyer le message <i data-lucide="send"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">Lok<span>Web</span></a>
+        <p>Agence web au Luxembourg.<br>Sites professionnels en abonnement mensuel.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Navigation</h4>
+          <a href="#comment-ca-marche">Comment ça marche</a>
+          <a href="#services">Services</a>
+          <a href="#tarifs">Tarifs</a>
+          <a href="#realisations">Réalisations</a>
+          <a href="#a-propos">À propos</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Légal</h4>
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="confidentialite.html">Politique de confidentialité</a>
+          <a href="cgv.html">CGV</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 LokWeb — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
