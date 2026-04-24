@@ -9,10 +9,11 @@ Relire et modifier ici avant de reporter dans `index.html`.
 - Comment ça marche
 - Services
 - Tarifs
-- Réalisations
+- Projets récents
 - À propos
 - Contact
 - Recevoir ma démo (bouton)
+- WhatsApp (bouton, lien https://wa.me/352661474130, ouvre dans un nouvel onglet)
 
 ---
 
@@ -20,13 +21,13 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Badge :** Agence web au Luxembourg
 
-**Titre :** Votre site en ligne *la semaine prochaine.*
+**Titre :** Le site web que *vos concurrents ont déjà.* (crochets = Instrument Serif italic ambre)
 
-**Sous-titre :** On crée votre site gratuitement. Vous payez uniquement l'abonnement, dès 49 €/mois. Sans engagement, livré en 7 jours.
+**Sous-titre :** Création offerte. Abonnement dès 49 €/mois, tout compris. Livré en 7 jours, sans engagement.
 
 **Bouton primaire :** Recevoir ma démo →
 
-**Bouton secondaire :** Nos réalisations
+**Bouton secondaire :** Nos projets récents
 
 **Stats :**
 - 7 jours — Mise en ligne
@@ -99,6 +100,7 @@ Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
 | Tarifs | Nous consulter | 49 €/mois clair |
 | Interlocuteur | Équipe de 5 à 10 | Un seul, dédié |
 | Maintenance | En option payante | Incluse |
+| Mise en service | Processus lourd | WhatsApp suffit |
 
 ---
 
@@ -138,11 +140,13 @@ Pour les restaurants et commerces avec commande en ligne.
 
 ---
 
-## Réalisations
+## Projets récents
 
-**Titre :** Nos réalisations
+**Titre :** Projets récents
 
-**Sous-titre :** On a commencé par nos propres business, parce qu'on mange ce qu'on cuisine.
+**Sous-titre / encadré lancement :** LokWeb lance son service au Luxembourg en 2026. Nous sélectionnons nos 10 premiers clients partenaires avec un tarif préférentiel et un accompagnement renforcé.
+
+**Note de positionnement :** les 3 cartes ci-dessous sont présentées comme références neutres. Ne jamais les décrire comme « nos propres business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
 
 ### Schmoett
 Restaurant · Luxembourg
@@ -168,14 +172,14 @@ Santé & bien-être · Europe
 
 J'ai lancé LokWeb parce que j'en avais marre de voir des commerçants payer 5 000 € pour un site qu'ils n'arrivent même pas à modifier ensuite.
 
-Avant LokWeb, j'ai construit Schmoett (restaurant à Schifflange), Drix Lux (livraison d'alcool) et Elisa Health (santé en Europe). Ces sites, je les ai faits moi-même. Je sais ce dont un entrepreneur local a besoin.
+Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business locaux (restaurant, livraison, services), et j'ai construit leurs sites moi-même. Je sais ce dont un entrepreneur local a besoin — parce que je suis à votre place tous les jours.
 
 Avec LokWeb, je fais ce travail pour vous. Création offerte, 49 €/mois, un seul interlocuteur : moi.
 
 **Badges :**
-- Basé au Luxembourg
-- 3 sites en production
-- Un seul interlocuteur
+- Basé au Luxembourg (icône Lucide `map-pin`)
+- Méthode éprouvée (icône Lucide `badge-check`)
+- Un seul interlocuteur (icône Lucide `user`)
 
 **CTA :** Me contacter directement →
 
@@ -219,6 +223,8 @@ Sans engagement, sans blabla.
 **Titre :** Contact
 
 **Email :** info@lokweb.lu
+**WhatsApp :** +352 661 47 41 30 (https://wa.me/352661474130)
+**Téléphone :** +352 661 47 41 30 (tel:+352661474130)
 **Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
 **Disponibilité :** Lundi – Vendredi, 9 h – 18 h
 
@@ -237,7 +243,7 @@ Sans engagement, sans blabla.
 
 **Marque :** LokWeb — Agence web au Luxembourg. Sites professionnels en abonnement mensuel.
 
-**Navigation :** Comment ça marche · Services · Tarifs · Réalisations · À propos · Contact
+**Navigation :** Comment ça marche · Services · Tarifs · Projets récents · À propos · Contact
 
 **Légal :** Mentions légales · Politique de confidentialité · CGV
 

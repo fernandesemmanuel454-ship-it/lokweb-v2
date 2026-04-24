@@ -3,6 +3,7 @@
 ## Propriétaire
 Emmanuel Fernandes
 Email : info@lokweb.lu
+WhatsApp / Téléphone : +352 661 47 41 30
 Agence : LokWeb — 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
 
 ## Qu'est-ce que LokWeb
@@ -69,43 +70,47 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 - Espace insécable avant : ; ! ? % €
 - Toujours « 49 €/mois », jamais « 49€/mois »
 - Un seul CTA primaire par vue
-- PAS de vert WhatsApp (#25D366)
+- Vert WhatsApp (#25D366) AUTORISÉ UNIQUEMENT sur les éléments WhatsApp : bouton WhatsApp du header et widget flottant. Interdit ailleurs (CTA, sections, accents, etc.).
 - UNE SEULE adresse email partout : info@lokweb.lu
+- Numéro unique WhatsApp / téléphone : +352 661 47 41 30 (format lien WhatsApp : https://wa.me/352661474130 ; format tel : tel:+352661474130)
 
 ## Structure de la page d'accueil (dans l'ordre)
 
-1. Nav sticky sombre avec backdrop-blur
-2. Hero sombre : badge + titre avec « la semaine prochaine » en italique serif ambre + 2 CTA + 3 stats + visuel 4:5
-3. « Comment ça marche » fond clair
+1. Nav sticky sombre avec backdrop-blur + bouton WhatsApp vert (exception graphique)
+2. Hero sombre : badge + H1 avec « vos concurrents ont déjà » en italique serif ambre + 2 CTA + 3 stats + visuel carousel 16:10
+3. « Comment ça marche » fond clair : 4 étapes
 4. Services fond sombre : 6 cartes avec icônes Lucide ambre
-5. Tarifs fond clair : 3 formules (Essentiel 49 € / Business 89 € / Commande+ 149 €)
-6. Réalisations fond sombre : Drix Lux + Schmoett
-7. Process fond clair : 4 étapes (Échange, Maquette, Développement, Mise en ligne)
-8. CTA final fond sombre
-9. Contact fond clair : infos + formulaire
-10. Footer sombre
+5. Pourquoi LokWeb fond clair : tableau comparatif (Agence classique vs LokWeb, incluant la ligne « Mise en service : WhatsApp suffit »)
+6. Tarifs fond clair : 3 formules (Essentiel 49 € / Business 89 € / Commerce+ 149 €)
+7. Projets récents fond sombre : encadré de lancement 2026 (10 premiers clients partenaires) + 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance
+8. À propos fond clair : Emmanuel + monogramme EF + badges « Basé au Luxembourg / Méthode éprouvée / Un seul interlocuteur »
+9. Process fond clair : 4 étapes (Échange, Maquette, Développement, Mise en ligne)
+10. CTA final fond sombre
+11. Contact fond clair : email, WhatsApp, téléphone, adresse + formulaire
+12. Footer sombre
+13. Widget WhatsApp flottant fixe bottom-right (bulle verte #25D366, exception graphique)
 
-## Textes validés
+## Source de vérité des textes
 
-Hero :
-- Titre : « Votre site en ligne [la semaine prochaine]. » (crochets = Instrument Serif italic ambre)
-- Sous-titre : « Pensé, conçu et livré depuis le Luxembourg. À partir de 49 €/mois, sans engagement. »
-- CTA primaire : « Recevoir ma démo → »
-- CTA secondaire : « Nos réalisations »
-- Stats : « 7 jours / Mise en ligne » + « 49 €/mois / Sans frais de création » + « 0 € / Engagement »
+Le fichier [CONTENT.md](./CONTENT.md) est la source de vérité pour tous les textes du site. En cas de divergence entre `index.html`, `CONTENT.md` et ce document, `index.html` fait foi pour ce qui est en ligne, et `CONTENT.md` doit être resynchronisé.
 
-CTA final :
-« Prêt à passer en ligne ? Recevez une maquette gratuite de votre futur site sous 24 h. Sans engagement, sans blabla. »
+## Problèmes à NE PAS reproduire
 
-## Problèmes du site actuel à NE PAS reproduire
-
-- Trop d'emojis
-- Bouton vert WhatsApp #25D366 incohérent
-- Faux numéro de téléphone +352 661 234 567
+Généralités héritées de l'ancien site WordPress :
+- Trop d'emojis (icônes Lucide uniquement)
 - Fautes d'accents
 - Mockup « fausse fenêtre macOS » creuse
-- Doublons « Nos Projets — Nos Projets »
-- Deux adresses email différentes
+- Doublons de sections (« Nos Projets — Nos Projets »)
+- Deux adresses email différentes (règle : une seule, info@lokweb.lu)
+
+Garde-fous positionnement / conversion (issus du diagnostic 2026 — 15 prospects contactés, 0 signé) :
+- Ne JAMAIS présenter le portfolio comme « nos propres business » ni utiliser des formules du type « on mange ce qu'on cuisine ». Les 3 sites affichés (Schmoett, Drix Lux, Elisa Health) sont des références neutres, pas des preuves d'auto-consommation.
+- Ne JAMAIS afficher de métrique du type « 3 sites en production » ou « X sites livrés » tant que le nombre de clients réels est faible. Ces chiffres détruisent la crédibilité en pré-lancement. Préférer des métriques qualitatives (« Méthode éprouvée », « Basé au Luxembourg », « Un seul interlocuteur »).
+- Toujours offrir au moins un canal de contact humain direct (WhatsApp et/ou téléphone) en plus du formulaire. Le commerçant luxembourgeois veut pouvoir appeler ou WhatsApper.
+- Le H1 doit parler business (peur de rater, manque à gagner, retard compétitif), pas technique (délai, process). Le prospect souffre de « mon site ne m'amène pas de clients », pas de « je n'ai pas de site rapidement ».
+- Faux numéro de téléphone +352 661 234 567 de l'ancien site : ne jamais réutiliser. Seul numéro valide : +352 661 47 41 30.
+
+Rappel sur l'exception graphique WhatsApp (voir « Règles éditoriales strictes ») : le vert #25D366 n'est autorisé QUE sur les deux éléments WhatsApp (bouton du header + widget flottant bottom-right). Partout ailleurs, l'interdiction tient.
 
 ## État d'avancement
 
