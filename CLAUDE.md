@@ -11,7 +11,7 @@ Agence web luxembourgeoise qui vend des sites en abonnement mensuel à des comme
 
 Proposition de valeur :
 - Site pro livré en 7 jours
-- À partir de 49 €/mois
+- À partir de 59 €/mois
 - Sans engagement
 - Tout inclus (création, hébergement, maintenance)
 
@@ -34,8 +34,8 @@ Proposition de valeur :
 Le site lokweb.lu sera refait en CODE CUSTOM (HTML/CSS/JS vanilla) déployé sur Vercel, pour être cohérent avec schmoett.lu et drixlux.lu. WordPress + Elementor Pro reste dans la boîte à outils pour des sites clients.
 
 Deux formules commerciales à terme :
-- Starter : WordPress + Elementor (49–89 €/mois)
-- Premium : code custom sur mesure (149–249 €/mois)
+- Starter : WordPress + Elementor (59–99 €/mois)
+- Premium : code custom sur mesure (149–199 €/mois)
 
 ## Stack technique du nouveau lokweb.lu
 
@@ -68,7 +68,7 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 - Aucun emoji dans le contenu final (icônes Lucide uniquement)
 - Tous les accents français correctement placés
 - Espace insécable avant : ; ! ? % €
-- Toujours « 49 €/mois », jamais « 49€/mois »
+- Toujours « 59 €/mois », jamais « 59€/mois »
 - Un seul CTA primaire par vue
 - Vert WhatsApp (#25D366) AUTORISÉ UNIQUEMENT sur les éléments WhatsApp : bouton WhatsApp du header et widget flottant. Interdit ailleurs (CTA, sections, accents, etc.).
 - UNE SEULE adresse email partout : info@lokweb.lu
@@ -81,7 +81,7 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 3. « Comment ça marche » fond clair : 4 étapes
 4. Services fond sombre : 6 cartes avec icônes Lucide ambre
 5. Pourquoi LokWeb fond clair : tableau comparatif (Agence classique vs LokWeb, incluant la ligne « Mise en service : WhatsApp suffit »)
-6. Tarifs fond clair : 3 formules (Essentiel 49 € / Business 89 € / Commerce+ 149 €)
+6. Tarifs fond clair : 3 formules (Essentiel 59 € / Business 99 € / Commerce+ 199 €)
 7. Projets récents fond sombre : 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance. L'encadré de lancement 2026 / 10 premiers clients partenaires a été déplacé dans la section À propos pour ne pas donner l'impression « pas encore de projets » juste avant d'afficher les 3 références.
 8. À propos fond clair : Emmanuel + monogramme EF + encadré discret « Lancement 2026 / 10 premiers clients partenaires » + badges « Basé au Luxembourg / Sans engagement / Un seul interlocuteur »
 9. Process fond clair : 4 étapes (Échange, Maquette, Développement, Mise en ligne)

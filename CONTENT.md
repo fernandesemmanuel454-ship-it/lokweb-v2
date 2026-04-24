@@ -23,7 +23,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Titre :** Le site web que *vos concurrents ont déjà.* (crochets = Instrument Serif italic ambre)
 
-**Sous-titre :** Création offerte. Abonnement dès 49 €/mois, tout compris. Livré en 7 jours, sans engagement.
+**Sous-titre :** Création offerte. Abonnement dès 59 €/mois, tout compris. Livré en 7 jours, sans engagement.
 
 **Bouton primaire :** Recevoir ma démo →
 
@@ -32,7 +32,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 **Stats :**
 - 7 jours — Mise en ligne
 - 0 € — Création offerte
-- 49 €/mois — Abonnement tout compris
+- 59 €/mois — Abonnement tout compris
 
 ---
 
@@ -97,7 +97,7 @@ Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
 | Création du site | 2 000 à 10 000 € | 0 € (offerte) |
 | Délai | 2 à 6 mois | 7 jours |
 | Engagement | 12 à 24 mois | Sans engagement |
-| Tarifs | Nous consulter | 49 €/mois clair |
+| Tarifs | Nous consulter | 59 €/mois clair |
 | Interlocuteur | Équipe de 5 à 10 | Un seul, dédié |
 | Maintenance | En option payante | Incluse |
 | Mise en service | Processus lourd | WhatsApp suffit |
@@ -110,7 +110,7 @@ Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
 
 **Titre :** Tarifs simples, sans surprise
 
-### Essentiel — 49 €/mois
+### Essentiel — 59 €/mois
 Idéal pour les indépendants et petits commerces.
 - Site vitrine jusqu'à 5 pages
 - Design responsive sur mesure
@@ -118,7 +118,7 @@ Idéal pour les indépendants et petits commerces.
 - Référencement SEO de base
 - Certificat SSL
 
-### Business — 89 €/mois (Recommandé)
+### Business — 99 €/mois (Recommandé)
 Pour les entreprises qui veulent se démarquer.
 - Site jusqu'à 10 pages
 - Formulaire de contact avancé
@@ -127,7 +127,7 @@ Pour les entreprises qui veulent se démarquer.
 - Modifications illimitées
 - Support prioritaire
 
-### Commande+ — 149 €/mois
+### Commerce+ — 199 €/mois
 Pour les restaurants et commerces avec commande en ligne.
 - Tout Business inclus
 - Système de commande en ligne
@@ -172,7 +172,7 @@ J'ai lancé LokWeb parce que j'en avais marre de voir des commerçants payer 5 0
 
 Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business locaux (restaurant, livraison, services), et j'ai construit leurs sites moi-même. Je sais ce dont un entrepreneur local a besoin — parce que je suis à votre place tous les jours.
 
-Avec LokWeb, je fais ce travail pour vous. Création offerte, 49 €/mois, un seul interlocuteur : moi.
+Avec LokWeb, je fais ce travail pour vous. Création offerte, dès 59 €/mois, un seul interlocuteur : moi.
 
 **Encadré lancement 2026 (après les paragraphes, avant les badges) :** **Lancement 2026 au Luxembourg.** Je sélectionne mes 10 premiers clients partenaires avec un tarif préférentiel et un accompagnement renforcé.
 
