@@ -82,8 +82,8 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 4. Services fond sombre : 6 cartes avec icônes Lucide ambre
 5. Pourquoi LokWeb fond clair : tableau comparatif (Agence classique vs LokWeb, incluant la ligne « Mise en service : WhatsApp suffit »)
 6. Tarifs fond clair : 3 formules (Essentiel 49 € / Business 89 € / Commerce+ 149 €)
-7. Projets récents fond sombre : encadré de lancement 2026 (10 premiers clients partenaires) + 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance
-8. À propos fond clair : Emmanuel + monogramme EF + badges « Basé au Luxembourg / Méthode éprouvée / Un seul interlocuteur »
+7. Projets récents fond sombre : 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance. L'encadré de lancement 2026 / 10 premiers clients partenaires a été déplacé dans la section À propos pour ne pas donner l'impression « pas encore de projets » juste avant d'afficher les 3 références.
+8. À propos fond clair : Emmanuel + monogramme EF + encadré discret « Lancement 2026 / 10 premiers clients partenaires » + badges « Basé au Luxembourg / Sans engagement / Un seul interlocuteur »
 9. Process fond clair : 4 étapes (Échange, Maquette, Développement, Mise en ligne)
 10. CTA final fond sombre
 11. Contact fond clair : email, WhatsApp, téléphone, adresse + formulaire
@@ -105,7 +105,7 @@ Généralités héritées de l'ancien site WordPress :
 
 Garde-fous positionnement / conversion (issus du diagnostic 2026 — 15 prospects contactés, 0 signé) :
 - Ne JAMAIS présenter le portfolio comme « nos propres business » ni utiliser des formules du type « on mange ce qu'on cuisine ». Les 3 sites affichés (Schmoett, Drix Lux, Elisa Health) sont des références neutres, pas des preuves d'auto-consommation.
-- Ne JAMAIS afficher de métrique du type « 3 sites en production » ou « X sites livrés » tant que le nombre de clients réels est faible. Ces chiffres détruisent la crédibilité en pré-lancement. Préférer des métriques qualitatives (« Méthode éprouvée », « Basé au Luxembourg », « Un seul interlocuteur »).
+- Ne JAMAIS afficher de métrique du type « 3 sites en production » ou « X sites livrés » tant que le nombre de clients réels est faible. Ces chiffres détruisent la crédibilité en pré-lancement. Préférer des métriques qualitatives (« Sans engagement », « Basé au Luxembourg », « Un seul interlocuteur »).
 - Toujours offrir au moins un canal de contact humain direct (WhatsApp et/ou téléphone) en plus du formulaire. Le commerçant luxembourgeois veut pouvoir appeler ou WhatsApper.
 - Le H1 doit parler business (peur de rater, manque à gagner, retard compétitif), pas technique (délai, process). Le prospect souffre de « mon site ne m'amène pas de clients », pas de « je n'ai pas de site rapidement ».
 - Faux numéro de téléphone +352 661 234 567 de l'ancien site : ne jamais réutiliser. Seul numéro valide : +352 661 47 41 30.

@@ -27,7 +27,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Bouton primaire :** Recevoir ma démo →
 
-**Bouton secondaire :** Nos projets récents
+**Bouton secondaire :** Projets récents
 
 **Stats :**
 - 7 jours — Mise en ligne
@@ -144,9 +144,7 @@ Pour les restaurants et commerces avec commande en ligne.
 
 **Titre :** Projets récents
 
-**Sous-titre / encadré lancement :** LokWeb lance son service au Luxembourg en 2026. Nous sélectionnons nos 10 premiers clients partenaires avec un tarif préférentiel et un accompagnement renforcé.
-
-**Note de positionnement :** les 3 cartes ci-dessous sont présentées comme références neutres. Ne jamais les décrire comme « nos propres business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
+**Note de positionnement :** les 3 cartes ci-dessous sont présentées comme références neutres. Ne jamais les décrire comme « nos propres business » ou utiliser des formules du type « on mange ce qu'on cuisine ». L'encadré lancement 2026 / 10 premiers clients partenaires a été déplacé dans la section À propos pour ne pas suggérer « pas encore de projets » juste avant d'afficher les 3 références.
 
 ### Schmoett
 Restaurant · Luxembourg
@@ -176,9 +174,11 @@ Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business loc
 
 Avec LokWeb, je fais ce travail pour vous. Création offerte, 49 €/mois, un seul interlocuteur : moi.
 
+**Encadré lancement 2026 (après les paragraphes, avant les badges) :** **Lancement 2026 au Luxembourg.** Je sélectionne mes 10 premiers clients partenaires avec un tarif préférentiel et un accompagnement renforcé.
+
 **Badges :**
 - Basé au Luxembourg (icône Lucide `map-pin`)
-- Méthode éprouvée (icône Lucide `badge-check`)
+- Sans engagement (icône Lucide `unlock`)
 - Un seul interlocuteur (icône Lucide `user`)
 
 **CTA :** Me contacter directement →
