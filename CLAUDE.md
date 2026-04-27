@@ -82,8 +82,8 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 4. Services fond sombre : 6 cartes avec icônes Lucide ambre
 5. Pourquoi LokWeb fond clair : tableau comparatif (Agence classique vs LokWeb, incluant la ligne « Mise en service : WhatsApp suffit »)
 6. Tarifs fond clair : 3 formules (Essentiel 59 € / Business 99 € / Commerce+ 199 €)
-7. Projets récents fond sombre : 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance. L'encadré de lancement 2026 / 10 premiers clients partenaires a été déplacé dans la section À propos pour ne pas donner l'impression « pas encore de projets » juste avant d'afficher les 3 références.
-8. À propos fond clair : Emmanuel + monogramme EF + encadré discret « Lancement 2026 / 10 premiers clients partenaires » + badges « Basé au Luxembourg / Sans engagement / Un seul interlocuteur »
+7. Projets récents fond sombre : 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance.
+8. À propos fond clair : Emmanuel + monogramme EF + badges « Basé au Luxembourg / Sans engagement / Un seul interlocuteur »
 9. Process fond clair : 4 étapes (Échange, Maquette, Développement, Mise en ligne)
 10. CTA final fond sombre
 11. Contact fond clair : email, WhatsApp, téléphone, adresse + formulaire

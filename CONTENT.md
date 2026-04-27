@@ -21,9 +21,9 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Badge :** Agence web au Luxembourg
 
-**Titre :** Le site web que *vos concurrents ont déjà.* (crochets = Instrument Serif italic ambre)
+**Titre :** Quand vos clients cherchent votre *métier* sur Google, ils vous trouvent. (crochets = Instrument Serif italic ambre)
 
-**Sous-titre :** Création offerte. Abonnement dès 59 €/mois, tout compris. Livré en 7 jours, sans engagement.
+**Sous-titre :** Site pro, fiche Google et WhatsApp direct. Création offerte. Dès 59 €/mois, livré en 7 jours, sans engagement.
 
 **Bouton primaire :** Recevoir ma démo →
 
@@ -123,6 +123,7 @@ Pour les entreprises qui veulent se démarquer.
 - Site jusqu'à 10 pages
 - Formulaire de contact avancé
 - Intégration Google Maps
+- Bouton WhatsApp direct intégré au site
 - Référencement SEO avancé
 - Modifications illimitées
 - Support prioritaire
@@ -144,7 +145,7 @@ Pour les restaurants et commerces avec commande en ligne.
 
 **Titre :** Projets récents
 
-**Note de positionnement :** les 3 cartes ci-dessous sont présentées comme références neutres. Ne jamais les décrire comme « nos propres business » ou utiliser des formules du type « on mange ce qu'on cuisine ». L'encadré lancement 2026 / 10 premiers clients partenaires a été déplacé dans la section À propos pour ne pas suggérer « pas encore de projets » juste avant d'afficher les 3 références.
+**Note de positionnement :** les 3 cartes ci-dessous sont présentées comme références neutres. Ne jamais les décrire comme « nos propres business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
 
 ### Schmoett
 Restaurant · Luxembourg
@@ -174,7 +175,7 @@ Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business loc
 
 Avec LokWeb, je fais ce travail pour vous. Création offerte, dès 59 €/mois, un seul interlocuteur : moi.
 
-**Encadré lancement 2026 (après les paragraphes, avant les badges) :** **Lancement 2026 au Luxembourg.** Je sélectionne mes 10 premiers clients partenaires avec un tarif préférentiel et un accompagnement renforcé.
+**Note (après les paragraphes, avant les badges) :** Basé à Schifflange, je travaille avec des commerçants et artisans du Luxembourg francophone.
 
 **Badges :**
 - Basé au Luxembourg (icône Lucide `map-pin`)
@@ -226,7 +227,7 @@ Sans engagement, sans blabla.
 **WhatsApp :** +352 661 47 41 30 (https://wa.me/352661474130)
 **Téléphone :** +352 661 47 41 30 (tel:+352661474130)
 **Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
-**Disponibilité :** Lundi – Vendredi, 9 h – 18 h
+**Disponibilité :** Réponse WhatsApp sous 24 h, 7 j/7
 
 **Champs du formulaire :**
 - Nom (requis)
