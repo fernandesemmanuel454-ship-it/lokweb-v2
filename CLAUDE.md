@@ -15,7 +15,7 @@ Proposition de valeur :
 - Sans engagement
 - Tout inclus (création, hébergement, maintenance)
 
-## Les 3 sites existants
+## Les 2 sites existants
 
 1. lokweb.lu — site vitrine de l'agence
    - Aujourd'hui : WordPress + Elementor Pro, sur OVH mutualisé
@@ -25,13 +25,9 @@ Proposition de valeur :
    - Code custom HTML/CSS/JS, déployé sur Vercel via GitHub
    - NE PAS TOUCHER sans raison explicite
 
-3. drixlux.lu — livraison d'alcool à Luxembourg
-   - Code custom HTML/CSS/JS, déployé sur Vercel via GitHub
-   - NE PAS TOUCHER sans raison explicite
-
 ## Décision stratégique validée
 
-Le site lokweb.lu sera refait en CODE CUSTOM (HTML/CSS/JS vanilla) déployé sur Vercel, pour être cohérent avec schmoett.lu et drixlux.lu. WordPress + Elementor Pro reste dans la boîte à outils pour des sites clients.
+Le site lokweb.lu sera refait en CODE CUSTOM (HTML/CSS/JS vanilla) déployé sur Vercel, pour être cohérent avec schmoett.lu. WordPress + Elementor Pro reste dans la boîte à outils pour des sites clients.
 
 Deux formules commerciales à terme :
 - Starter : WordPress + Elementor (59–99 €/mois)
@@ -82,7 +78,7 @@ Règle d'or : 80% noir/blanc/gris, 15% bleu primaire, 5% ambre d'accent.
 4. Services fond sombre : 6 cartes avec icônes Lucide ambre
 5. Pourquoi LokWeb fond clair : tableau comparatif (Agence classique vs LokWeb, incluant la ligne « Mise en service : WhatsApp suffit »)
 6. Tarifs fond clair : 3 formules (Essentiel 59 € / Business 99 € / Commerce+ 199 €)
-7. Projets récents fond sombre : 3 cartes (Schmoett, Drix Lux, Elisa Health) présentées comme références neutres, sans revendication d'appartenance.
+7. Projets récents fond sombre : 1 carte (Schmoett) présentée comme référence neutre, sans revendication d'appartenance.
 8. À propos fond clair : Emmanuel + monogramme EF + badges « Basé au Luxembourg / Sans engagement / Un seul interlocuteur »
 9. Process fond clair : 4 étapes (Échange, Maquette, Développement, Mise en ligne)
 10. CTA final fond sombre
@@ -104,7 +100,7 @@ Généralités héritées de l'ancien site WordPress :
 - Deux adresses email différentes (règle : une seule, info@lokweb.lu)
 
 Garde-fous positionnement / conversion (issus du diagnostic 2026 — 15 prospects contactés, 0 signé) :
-- Ne JAMAIS présenter le portfolio comme « nos propres business » ni utiliser des formules du type « on mange ce qu'on cuisine ». Les 3 sites affichés (Schmoett, Drix Lux, Elisa Health) sont des références neutres, pas des preuves d'auto-consommation.
+- Ne JAMAIS présenter le portfolio comme « nos propres business » ni utiliser des formules du type « on mange ce qu'on cuisine ». Le site affiché (Schmoett) est une référence neutre, pas une preuve d'auto-consommation.
 - Ne JAMAIS afficher de métrique du type « 3 sites en production » ou « X sites livrés » tant que le nombre de clients réels est faible. Ces chiffres détruisent la crédibilité en pré-lancement. Préférer des métriques qualitatives (« Sans engagement », « Basé au Luxembourg », « Un seul interlocuteur »).
 - Toujours offrir au moins un canal de contact humain direct (WhatsApp et/ou téléphone) en plus du formulaire. Le commerçant luxembourgeois veut pouvoir appeler ou WhatsApper.
 - Le H1 doit parler business (peur de rater, manque à gagner, retard compétitif), pas technique (délai, process). Le prospect souffre de « mon site ne m'amène pas de clients », pas de « je n'ai pas de site rapidement ».

@@ -145,19 +145,11 @@ Pour les restaurants et commerces avec commande en ligne.
 
 **Titre :** Projets récents
 
-**Note de positionnement :** les 3 cartes ci-dessous sont présentées comme références neutres. Ne jamais les décrire comme « nos propres business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
+**Note de positionnement :** la carte ci-dessous est présentée comme une référence neutre. Ne jamais la décrire comme « notre propre business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
 
 ### Schmoett
 Restaurant · Luxembourg
 → schmoett.lu
-
-### Drix Lux
-Livraison alcool premium · Luxembourg
-→ drixlux.lu
-
-### Elisa Health
-Santé & bien-être · Europe
-→ elisahealth.eu
 
 ---
 

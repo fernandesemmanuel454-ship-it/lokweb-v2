@@ -74,7 +74,7 @@ Structure des sections (dans l'ordre) :
 | `<!-- COMMENT ÇA MARCHE -->` | Les 4 étapes |
 | `<!-- SERVICES -->` | Les 6 services |
 | `<!-- TARIFS -->` | Les 3 formules de prix |
-| `<!-- RÉALISATIONS -->` | Portfolio (Drix Lux + Schmoett) |
+| `<!-- RÉALISATIONS -->` | Portfolio (Schmoett) |
 | `<!-- PROCESS -->` | Méthode de travail |
 | `<!-- CTA FINAL -->` | Appel à l'action |
 | `<!-- CONTACT -->` | Infos + formulaire |
