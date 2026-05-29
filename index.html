@@ -31,6 +31,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cookie-consent.css">
 
   <!-- JSON-LD LocalBusiness -->
   <script type="application/ld+json">
@@ -485,8 +486,9 @@
         <div>
           <h4>Légal</h4>
           <a href="mentions-legales.html">Mentions légales</a>
-          <a href="confidentialite.html">Politique de confidentialité</a>
+          <a href="politique-de-confidentialite.html">Politique de confidentialité</a>
           <a href="cgv.html">CGV</a>
+          <button type="button" class="cc-manage-btn" data-cc-open>Gérer mes cookies</button>
         </div>
       </div>
     </div>
@@ -503,5 +505,7 @@
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <script src="script.js"></script>
+  <!-- Consentement cookies (RGPD) — gère le chargement conditionnel du Pixel Meta -->
+  <script src="cookie-consent.js"></script>
 </body>
 </html>
