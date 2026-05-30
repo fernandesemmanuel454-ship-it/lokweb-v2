@@ -95,6 +95,9 @@ if (contactForm) {
 
       if (!res.ok) throw new Error('Erreur serveur');
 
+      // Conversion : événement Meta "Lead" (uniquement si le pixel est chargé = consentement marketing)
+      if (typeof window.fbq === 'function') { window.fbq('track', 'Lead'); }
+
       contactForm.innerHTML =
         '<div style="text-align:center;padding:40px 0;">' +
         '<p style="font-size:1.1rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;">Message envoyé avec succès.</p>' +
@@ -110,3 +113,21 @@ if (contactForm) {
     }
   });
 }
+
+// ---- Événement Meta "Lead" sur les liens de contact (WhatsApp, email, téléphone) ----
+// Écouteur délégué unique. Ne déclenche fbq que si le pixel est chargé (consentement marketing).
+// Ne bloque jamais la navigation : le lien s'ouvre normalement.
+document.addEventListener('click', (e) => {
+  const link = e.target.closest('a');
+  if (!link) return;
+
+  const href = link.getAttribute('href') || '';
+  const isContact =
+    href.includes('wa.me') ||
+    href.startsWith('mailto:') ||
+    href.startsWith('tel:');
+
+  if (isContact && typeof window.fbq === 'function') {
+    window.fbq('track', 'Lead');
+  }
+});
