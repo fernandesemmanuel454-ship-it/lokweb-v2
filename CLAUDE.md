@@ -123,3 +123,14 @@ Rappel sur l'exception graphique WhatsApp (voir « Règles éditoriales strictes
 ## Instructions pour Claude Code
 
 Si tu lis ce document au début d'une conversation, tu sais TOUT sur le projet. Ne demande pas à Emmanuel de répéter des infos déjà listées. Il ne veut pas toucher au code ni cliquer dans des interfaces techniques. Il compte sur toi pour générer le code et lui donner les commandes prêtes à copier-coller. Sois pédagogique, direct, et ne reviens pas sur des décisions déjà prises (WordPress vs code custom → c'est tranché, c'est code custom).
+
+## Workflow Git (rappel mémoire)
+
+Toujours, AVANT toute modification de code, repartir de la version de production à jour : cd dans le dossier puis git checkout main et git pull origin main.
+
+Cela évite de committer par erreur sur une vieille branche de feature (déjà arrivé : un correctif s'est retrouvé sur feat/meta-lead-event au lieu de main, donc non déployé). Vercel ne déploie en production QUE depuis main.
+
+Rappels d'environnement :
+- Le dépôt local est dans ~/Documents/lokweb-v2 (pas ~/lokweb-v2).
+- Sur macOS, sed en place s'écrit avec des guillemets vides : sed -i '' '...', pas sed -i '...' comme sous Linux.
+- Si un commit atterrit sur la mauvaise branche : git checkout main, git pull origin main, git cherry-pick le-sha, git push origin main.
