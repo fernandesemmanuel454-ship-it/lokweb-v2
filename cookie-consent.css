@@ -275,6 +275,10 @@
     color: inherit;
     cursor: pointer;
     text-align: left;
+    display: flex;
+    align-items: center;
+    min-height: 36px;
+    margin-bottom: 8px;
 }
 .cc-manage-btn:hover { text-decoration: underline; }
 

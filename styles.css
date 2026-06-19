@@ -505,8 +505,13 @@ img { max-width: 100%; display: block; }
 
 /* ---- Portfolio ---- */
 .portfolio-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 28px; margin-top: 56px;
+}
+.portfolio-card:only-child {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .portfolio-card {
   background: rgba(255,255,255,.04);
@@ -611,9 +616,10 @@ img { max-width: 100%; display: block; }
   letter-spacing: .06em; color: var(--white); margin-bottom: 16px;
 }
 .footer-links a {
-  display: block; font-size: .88rem; color: var(--text-muted-on-dark);
+  display: flex; align-items: center;
+  font-size: .88rem; color: var(--text-muted-on-dark);
   margin-bottom: 8px; transition: color var(--transition);
-  min-height: 36px; display: flex; align-items: center;
+  min-height: 36px;
 }
 .footer-links a:hover { color: var(--primary); }
 .footer-bottom {
@@ -761,10 +767,20 @@ img { max-width: 100%; display: block; }
     background: transparent;
     padding-bottom: 2px;
   }
+  .compare-agency, .compare-lokweb { flex-wrap: wrap; }
   .compare-agency::before,
   .compare-lokweb::before {
     content: attr(data-role);
+    width: 100%;
+    display: block;
+    font-size: .62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: 4px;
   }
+  .compare-agency::before { color: var(--text-muted); }
+  .compare-lokweb::before { color: rgba(255,255,255,.7); }
   .compare-agency {
     background: var(--white);
     border-radius: var(--radius);
@@ -777,7 +793,6 @@ img { max-width: 100%; display: block; }
     margin: 4px 20px 12px;
     padding: 14px 16px;
   }
-  .portfolio-grid { grid-template-columns: 1fr; max-width: 520px; margin-left: auto; margin-right: auto; }
   .process-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
 }
