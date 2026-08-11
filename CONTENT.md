@@ -13,7 +13,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 - À propos
 - Contact
 - Recevoir ma démo (bouton)
-- WhatsApp (bouton, lien https://wa.me/352661474130, ouvre dans un nouvel onglet)
+- WhatsApp (bouton avec message « test MENU » prérempli, ouvre dans un nouvel onglet)
 
 ---
 
@@ -21,7 +21,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Badge :** Agence web au Luxembourg
 
-**Titre :** Quand vos clients cherchent votre *métier* sur Google, ils vous trouvent. (crochets = Instrument Serif italic ambre)
+**Titre :** Quand vos clients vous cherchent sur Google, votre site doit les aider à vous *choisir*. (crochets = Instrument Serif italic ambre)
 
 **Sous-titre :** Site pro, fiche Google et WhatsApp direct. Création offerte. Dès 59 €/mois, livré en 7 jours, sans engagement.
 
@@ -33,6 +33,18 @@ Relire et modifier ici avant de reporter dans `index.html`.
 - 7 jours — Mise en ligne
 - 0 € — Création offerte
 - 59 €/mois — Abonnement tout compris
+
+---
+
+## Test MENU — restaurants et snacks
+
+**Titre :** Votre menu passe-t-il le test mobile ?
+
+**Texte :** Envoyez le nom de votre établissement ou son lien. Je vérifie gratuitement la lisibilité du menu, les horaires et la facilité de réservation sur téléphone.
+
+**Preuves :** 2 ou 3 observations concrètes · Réponse sous 24 h ouvrées · Gratuit et sans engagement
+
+**CTA :** Envoyer MENU sur WhatsApp
 
 ---
 
@@ -69,7 +81,7 @@ Un site unique qui reflète votre identité. Pas de template générique.
 Votre site s'adapte parfaitement à tous les écrans : mobile, tablette, desktop.
 
 **Référencement SEO**
-Optimisé pour Google dès le départ. Vos clients vous trouvent facilement.
+Les bases du référencement local sont intégrées dès la création pour améliorer votre visibilité sur Google.
 
 **Hébergement inclus**
 Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.
@@ -78,7 +90,7 @@ Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.
 Mises à jour, corrections, modifications mineures : on s'occupe de tout.
 
 **Performance optimale**
-Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
+Pages légères, images optimisées et performance contrôlée avant chaque mise en ligne.
 
 ---
 
@@ -86,21 +98,23 @@ Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
 
 **Label :** La différence
 
-**Titre :** Pourquoi pas une agence classique ?
+**Titre :** Une alternative simple aux projets web traditionnels
 
-**Sous-titre :** Au Luxembourg, créer un site avec une agence coûte 2 000 à 10 000 €, prend 2 à 6 mois et vous engage 24 mois. Chez LokWeb, c'est différent.
+**Sous-titre :** Selon le périmètre et le prestataire, un projet web traditionnel peut demander un investissement initial important et plusieurs semaines de travail. LokWeb propose un modèle mensuel plus simple.
 
 **Tableau comparatif :**
 
-| Critère | Agence classique | LokWeb |
+| Critère | Projet traditionnel* | LokWeb |
 |---|---|---|
-| Création du site | 2 000 à 10 000 € | 0 € (offerte) |
-| Délai | 2 à 6 mois | 7 jours |
-| Engagement | 12 à 24 mois | Sans engagement |
-| Tarifs | Nous consulter | 59 €/mois clair |
-| Interlocuteur | Équipe de 5 à 10 | Un seul, dédié |
-| Maintenance | En option payante | Incluse |
-| Mise en service | Processus lourd | WhatsApp suffit |
+| Création du site | Souvent 2 000 à 10 000 € | 0 € (offerte) |
+| Délai | Plusieurs semaines à plusieurs mois | 7 jours |
+| Engagement | Selon le contrat | Sans engagement |
+| Tarifs | Souvent sur devis | 59 €/mois clair |
+| Interlocuteur | Un ou plusieurs intervenants | Un seul, dédié |
+| Maintenance | Selon l'offre | Incluse |
+| Mise en service | Étapes variables | WhatsApp suffit |
+
+\* Fourchettes indicatives : les prix, délais et conditions varient selon le prestataire et le périmètre du projet.
 
 ---
 
@@ -137,7 +151,9 @@ Pour les restaurants et commerces avec commande en ligne.
 - Tableau de bord commandes
 - Intégration paiement
 
-**Note :** Tous les prix sont hors TVA. Aucun frais de création. Sans engagement.
+**Note :** Site vitrine dès 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Tous les prix sont hors TVA. La création est incluse dans l'abonnement, sans frais initiaux. Résiliation possible chaque mois.
+
+**Après résiliation :** LokWeb héberge et maintient le site pendant l'abonnement. À la résiliation, le service et le site LokWeb sont désactivés à la fin du mois en cours. Le domaine enregistré au nom du client et les contenus fournis restent au client. Les modalités définitives figurent dans les conditions remises avant souscription.
 
 ---
 
@@ -148,7 +164,8 @@ Pour les restaurants et commerces avec commande en ligne.
 **Note de positionnement :** la carte ci-dessous est présentée comme une référence neutre. Ne jamais la décrire comme « notre propre business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
 
 ### Schmoett
-Restaurant · Luxembourg
+Restaurant réel à Schifflange · Site mobile, carte interactive, Click & Collect et paiement Stripe.
+Projet réel et consultable.
 → schmoett.lu
 
 ---
@@ -161,7 +178,7 @@ Restaurant · Luxembourg
 
 **Paragraphes :**
 
-J'ai lancé LokWeb parce que j'en avais marre de voir des commerçants payer 5 000 € pour un site qu'ils n'arrivent même pas à modifier ensuite.
+J'ai lancé LokWeb pour proposer aux commerçants une alternative claire aux projets web avec un investissement initial important et une maintenance difficile à gérer.
 
 Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business locaux (restaurant, livraison, services), et j'ai construit leurs sites moi-même. Je sais ce dont un entrepreneur local a besoin — parce que je suis à votre place tous les jours.
 
@@ -216,7 +233,7 @@ Sans engagement, sans blabla.
 **Titre :** Contact
 
 **Email :** info@lokweb.lu
-**WhatsApp :** +352 661 47 41 30 (https://wa.me/352661474130)
+**WhatsApp :** +352 661 47 41 30 (message « test MENU » prérempli)
 **Téléphone :** +352 661 47 41 30 (tel:+352661474130)
 **Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
 **Disponibilité :** Réponse WhatsApp sous 24 h, 7 j/7

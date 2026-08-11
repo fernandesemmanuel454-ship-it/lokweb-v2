@@ -284,10 +284,18 @@
 
 /* ---- Responsive ---- */
 @media (max-width: 560px) {
-    .cc-banner { padding: 18px; bottom: 12px; }
+    .cc-banner {
+        padding: 14px 16px;
+        bottom: 8px;
+        max-height: calc(100vh - 84px);
+        overflow-y: auto;
+    }
+    .cc-title { font-size: .96rem; margin-bottom: 5px; }
+    .cc-text { font-size: .8rem; line-height: 1.4; margin-bottom: 10px; }
     .cc-actions { flex-direction: column; align-items: stretch; }
-    .cc-btn { width: 100%; text-align: center; }
+    .cc-btn { width: 100%; text-align: center; padding: 10px 14px; font-size: .82rem; }
     .cc-btn--accept { margin-left: 0; }
+    .cc-link { margin-top: 8px; font-size: .76rem; }
     .cc-modal-actions { flex-direction: column; }
     .cc-modal-actions .cc-btn--save { margin-left: 0; }
 }
