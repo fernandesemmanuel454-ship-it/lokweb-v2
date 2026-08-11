@@ -236,7 +236,7 @@ Sans engagement, sans blabla.
 **WhatsApp :** +352 661 47 41 30 (message « test MENU » prérempli)
 **Téléphone :** +352 661 47 41 30 (tel:+352661474130)
 **Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
-**Disponibilité :** Réponse WhatsApp sous 24 h, 7 j/7
+**Disponibilité :** Réponse WhatsApp sous 24 h ouvrées
 
 **Champs du formulaire :**
 - Nom (requis)
