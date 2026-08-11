@@ -21,9 +21,9 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Badge :** Agence web au Luxembourg
 
-**Titre :** Quand vos clients vous cherchent sur Google, votre site doit les aider à vous *choisir*. (crochets = Instrument Serif italic ambre)
+**Titre :** Un site professionnel pour votre entreprise, *sans frais de création au départ*. (italique = Instrument Serif italic ambre)
 
-**Sous-titre :** Site pro, fiche Google et WhatsApp direct. Création initiale incluse. Dès 59 €/mois, sans engagement.
+**Sous-titre :** **À partir de 59 €/mois.** Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial.
 
 **Bouton primaire :** Recevoir ma démo →
 
@@ -31,7 +31,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Stats :**
 - 7 jours — Première version (après réception de tous les contenus, selon le périmètre validé)
-- 0 € — Frais de création
+- Sans frais — De création au départ
 - 59 €/mois — Abonnement tout compris
 
 ---
@@ -106,10 +106,10 @@ Pages légères, images optimisées et performance contrôlée avant chaque mise
 
 | Critère | Projet traditionnel* | LokWeb |
 |---|---|---|
-| Création du site | Souvent 2 000 à 10 000 € | 0 € de frais initiaux |
+| Création du site | Souvent 2 000 à 10 000 € | Sans frais de création au départ |
 | Délai | Plusieurs semaines à plusieurs mois | Première version sous 7 jours ouvrés* |
 | Engagement | Selon le contrat | Sans engagement |
-| Tarifs | Souvent sur devis | 59 €/mois clair |
+| Tarifs | Souvent sur devis | À partir de 59 €/mois |
 | Interlocuteur | Un ou plusieurs intervenants | Un seul, dédié |
 | Maintenance | Selon l'offre | Incluse |
 | Mise en service | Étapes variables | WhatsApp suffit |
@@ -151,7 +151,7 @@ Pour les restaurants et commerces avec commande en ligne.
 - Tableau de bord commandes
 - Intégration paiement
 
-**Note :** Site vitrine dès 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Tous les prix sont hors TVA. La création initiale est incluse dans l'abonnement, sans frais initiaux. Résiliation possible chaque mois.
+**Note :** Site vitrine à partir de 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial. Tous les prix sont hors TVA. Résiliation possible chaque mois.
 
 **Après résiliation :** LokWeb héberge et maintient le site pendant l'abonnement. À la résiliation, le service et le site LokWeb sont désactivés à la fin du mois en cours. Le domaine enregistré au nom du client et les contenus fournis restent au client. Les modalités définitives figurent dans les conditions remises avant souscription.
 
@@ -174,15 +174,13 @@ Projet réel et consultable.
 
 **Label :** Fondateur
 
-**Titre :** Emmanuel, entrepreneur luxembourgeois
+**Titre :** Emmanuel, restaurateur et fondateur de LokWeb
 
 **Paragraphes :**
 
-J'ai lancé LokWeb pour proposer aux commerçants une alternative claire aux projets web avec un investissement initial important et une maintenance difficile à gérer.
+Je suis restaurateur au Luxembourg. J'ai créé LokWeb parce que je voyais trop de commerces perdre des clients simplement à cause d'un site dépassé, difficile à utiliser sur téléphone ou mal présenté sur Google.
 
-Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business locaux (restaurant, livraison, services), et j'ai construit leurs sites moi-même. Je sais ce dont un entrepreneur local a besoin — parce que je suis à votre place tous les jours.
-
-Avec LokWeb, je fais ce travail pour vous. Création initiale incluse, dès 59 €/mois, un seul interlocuteur : moi.
+Mon objectif est simple : créer des sites utiles, clairs et pensés pour aider les entreprises locales à obtenir davantage de contacts, de réservations et de clients.
 
 **Note (après les paragraphes, avant les badges) :** Basé à Schifflange, je travaille avec des commerçants et artisans du Luxembourg francophone.
 
