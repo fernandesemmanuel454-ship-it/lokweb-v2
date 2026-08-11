@@ -13,7 +13,7 @@ Relire et modifier ici avant de reporter dans `index.html`.
 - À propos
 - Contact
 - Recevoir ma démo (bouton)
-- WhatsApp (bouton, lien https://wa.me/352661474130, ouvre dans un nouvel onglet)
+- WhatsApp (bouton avec message « test MENU » prérempli, ouvre dans un nouvel onglet)
 
 ---
 
@@ -21,18 +21,30 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Badge :** Agence web au Luxembourg
 
-**Titre :** Quand vos clients cherchent votre *métier* sur Google, ils vous trouvent. (crochets = Instrument Serif italic ambre)
+**Titre :** Un site professionnel pour votre entreprise, *sans frais de création au départ*. (italique = Instrument Serif italic ambre)
 
-**Sous-titre :** Site pro, fiche Google et WhatsApp direct. Création offerte. Dès 59 €/mois, livré en 7 jours, sans engagement.
+**Sous-titre :** **À partir de 59 €/mois.** Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial.
 
 **Bouton primaire :** Recevoir ma démo →
 
 **Bouton secondaire :** Projets récents
 
 **Stats :**
-- 7 jours — Mise en ligne
-- 0 € — Création offerte
+- 7 jours — Première version (après réception de tous les contenus, selon le périmètre validé)
+- Sans frais — De création au départ
 - 59 €/mois — Abonnement tout compris
+
+---
+
+## Test MENU — restaurants et snacks
+
+**Titre :** Votre menu passe-t-il le test mobile ?
+
+**Texte :** Envoyez le nom de votre établissement ou son lien. Je vérifie gratuitement la lisibilité du menu, les horaires et la facilité de réservation sur téléphone.
+
+**Preuves :** 2 ou 3 observations concrètes · Réponse sous 24 h ouvrées · Gratuit et sans engagement
+
+**CTA :** Envoyer MENU sur WhatsApp
 
 ---
 
@@ -46,13 +58,13 @@ Relire et modifier ici avant de reporter dans `index.html`.
 On discute de votre activité, vos besoins et vos objectifs. 15 minutes suffisent.
 
 **Étape 2 — Maquette**
-Vous recevez une maquette gratuite de votre futur site sous 24 h. Sans engagement.
+Vous recevez une première proposition visuelle sous 24 h ouvrées. Sans engagement.
 
 **Étape 3 — Développement**
 On construit votre site avec le contenu que vous nous fournissez. Vous validez chaque étape.
 
 **Étape 4 — Mise en ligne**
-Votre site est en ligne en 7 jours. On s'occupe de l'hébergement et de la maintenance.
+La première version est préparée sous 7 jours ouvrés après réception de vos contenus. On s'occupe ensuite de l'hébergement et de la maintenance.
 
 ---
 
@@ -69,7 +81,7 @@ Un site unique qui reflète votre identité. Pas de template générique.
 Votre site s'adapte parfaitement à tous les écrans : mobile, tablette, desktop.
 
 **Référencement SEO**
-Optimisé pour Google dès le départ. Vos clients vous trouvent facilement.
+Les bases du référencement local sont intégrées dès la création pour améliorer votre visibilité sur Google.
 
 **Hébergement inclus**
 Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.
@@ -78,7 +90,7 @@ Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.
 Mises à jour, corrections, modifications mineures : on s'occupe de tout.
 
 **Performance optimale**
-Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
+Pages légères, images optimisées et performance contrôlée avant chaque mise en ligne.
 
 ---
 
@@ -86,21 +98,23 @@ Temps de chargement ultra-rapide. Score Lighthouse au-dessus de 90.
 
 **Label :** La différence
 
-**Titre :** Pourquoi pas une agence classique ?
+**Titre :** Une alternative simple aux projets web traditionnels
 
-**Sous-titre :** Au Luxembourg, créer un site avec une agence coûte 2 000 à 10 000 €, prend 2 à 6 mois et vous engage 24 mois. Chez LokWeb, c'est différent.
+**Sous-titre :** Selon le périmètre et le prestataire, un projet web traditionnel peut demander un investissement initial important et plusieurs semaines de travail. LokWeb propose un modèle mensuel plus simple.
 
 **Tableau comparatif :**
 
-| Critère | Agence classique | LokWeb |
+| Critère | Projet traditionnel* | LokWeb |
 |---|---|---|
-| Création du site | 2 000 à 10 000 € | 0 € (offerte) |
-| Délai | 2 à 6 mois | 7 jours |
-| Engagement | 12 à 24 mois | Sans engagement |
-| Tarifs | Nous consulter | 59 €/mois clair |
-| Interlocuteur | Équipe de 5 à 10 | Un seul, dédié |
-| Maintenance | En option payante | Incluse |
-| Mise en service | Processus lourd | WhatsApp suffit |
+| Création du site | Souvent 2 000 à 10 000 € | Sans frais de création au départ |
+| Délai | Plusieurs semaines à plusieurs mois | Première version sous 7 jours ouvrés* |
+| Engagement | Selon le contrat | Sans engagement |
+| Tarifs | Souvent sur devis | À partir de 59 €/mois |
+| Interlocuteur | Un ou plusieurs intervenants | Un seul, dédié |
+| Maintenance | Selon l'offre | Incluse |
+| Mise en service | Étapes variables | WhatsApp suffit |
+
+\* Fourchettes indicatives : les prix, délais et conditions varient selon le prestataire et le périmètre du projet.
 
 ---
 
@@ -125,8 +139,8 @@ Pour les entreprises qui veulent se démarquer.
 - Intégration Google Maps
 - Bouton WhatsApp direct intégré au site
 - Référencement SEO avancé
-- Modifications illimitées
-- Support prioritaire
+- Modifications courantes sur demande
+- Support prioritaire (réponse sous 24 h ouvrées)
 
 ### Commerce+ — 199 €/mois
 Pour les restaurants et commerces avec commande en ligne.
@@ -137,7 +151,9 @@ Pour les restaurants et commerces avec commande en ligne.
 - Tableau de bord commandes
 - Intégration paiement
 
-**Note :** Tous les prix sont hors TVA. Aucun frais de création. Sans engagement.
+**Note :** Site vitrine à partir de 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial. Tous les prix sont hors TVA. Résiliation possible chaque mois.
+
+**Après résiliation :** LokWeb héberge et maintient le site pendant l'abonnement. À la résiliation, le service et le site LokWeb sont désactivés à la fin du mois en cours. Le domaine enregistré au nom du client et les contenus fournis restent au client. Les modalités définitives figurent dans les conditions remises avant souscription.
 
 ---
 
@@ -148,7 +164,8 @@ Pour les restaurants et commerces avec commande en ligne.
 **Note de positionnement :** la carte ci-dessous est présentée comme une référence neutre. Ne jamais la décrire comme « notre propre business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
 
 ### Schmoett
-Restaurant · Luxembourg
+Restaurant réel à Schifflange · Site mobile, carte interactive, Click & Collect et paiement Stripe.
+Projet réel et consultable.
 → schmoett.lu
 
 ---
@@ -157,15 +174,13 @@ Restaurant · Luxembourg
 
 **Label :** Fondateur
 
-**Titre :** Emmanuel, entrepreneur luxembourgeois
+**Titre :** Emmanuel, restaurateur et fondateur de LokWeb
 
 **Paragraphes :**
 
-J'ai lancé LokWeb parce que j'en avais marre de voir des commerçants payer 5 000 € pour un site qu'ils n'arrivent même pas à modifier ensuite.
+Je suis restaurateur au Luxembourg. J'ai créé LokWeb parce que je voyais trop de commerces perdre des clients simplement à cause d'un site dépassé, difficile à utiliser sur téléphone ou mal présenté sur Google.
 
-Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business locaux (restaurant, livraison, services), et j'ai construit leurs sites moi-même. Je sais ce dont un entrepreneur local a besoin — parce que je suis à votre place tous les jours.
-
-Avec LokWeb, je fais ce travail pour vous. Création offerte, dès 59 €/mois, un seul interlocuteur : moi.
+Mon objectif est simple : créer des sites utiles, clairs et pensés pour aider les entreprises locales à obtenir davantage de contacts, de réservations et de clients.
 
 **Note (après les paragraphes, avant les badges) :** Basé à Schifflange, je travaille avec des commerçants et artisans du Luxembourg francophone.
 
@@ -188,7 +203,7 @@ Avec LokWeb, je fais ce travail pour vous. Création offerte, dès 59 €/mois, 
 Un appel de 15 minutes pour comprendre votre activité et vos besoins.
 
 02 — Maquette
-Une proposition visuelle de votre site sous 24 h. Gratuit, sans engagement.
+Une première proposition visuelle sous 24 h ouvrées. Gratuite et sans engagement.
 
 03 — Développement
 On construit votre site. Vous validez à chaque étape.
@@ -202,7 +217,7 @@ Votre site est en production. On gère l'hébergement et la maintenance.
 
 **Titre :** Prêt à passer en ligne ?
 
-**Texte :** Recevez une maquette gratuite de votre futur site sous 24 h.
+**Texte :** Recevez une première proposition visuelle sous 24 h ouvrées. Gratuite et sans engagement.
 Sans engagement, sans blabla.
 
 **Bouton :** Recevoir ma démo →
@@ -216,10 +231,10 @@ Sans engagement, sans blabla.
 **Titre :** Contact
 
 **Email :** info@lokweb.lu
-**WhatsApp :** +352 661 47 41 30 (https://wa.me/352661474130)
+**WhatsApp :** +352 661 47 41 30 (message « test MENU » prérempli)
 **Téléphone :** +352 661 47 41 30 (tel:+352661474130)
 **Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
-**Disponibilité :** Réponse WhatsApp sous 24 h, 7 j/7
+**Disponibilité :** Réponse WhatsApp sous 24 h ouvrées
 
 **Champs du formulaire :**
 - Nom (requis)
@@ -238,6 +253,6 @@ Sans engagement, sans blabla.
 
 **Navigation :** Comment ça marche · Services · Tarifs · Projets récents · À propos · Contact
 
-**Légal :** Mentions légales · Politique de confidentialité · CGV
+**Légal :** Mentions légales · Politique de confidentialité · CGV · Annexe RGPD
 
 **Copyright :** © 2026 LokWeb — Tous droits réservés.

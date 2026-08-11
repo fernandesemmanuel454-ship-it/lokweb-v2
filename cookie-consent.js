@@ -1,7 +1,7 @@
 /* ============================================================
    LokWeb — Gestion du consentement cookies (RGPD)
    ------------------------------------------------------------
-   - 3 catégories : necessary (toujours actif), analytics, marketing
+   - 2 catégories : necessary (toujours actif) et marketing
    - Refus par défaut tant que l'utilisateur n'a pas agi
    - Choix persisté dans localStorage (clé : lokweb_cookie_consent)
    - Le Pixel Meta ne se charge QUE si "marketing" === true
@@ -70,7 +70,6 @@
     } else {
       disableMetaPixel();
     }
-    /* "analytics" : pas d'outil branché aujourd'hui. Hook prêt si GA4 ajouté plus tard. */
   }
 
   /* -------- Construction de l'UI -------- */
@@ -83,8 +82,8 @@
     banner.setAttribute('aria-label', 'Consentement aux cookies');
     banner.innerHTML =
       '<p class="cc-title">Nous respectons votre vie privée</p>' +
-      '<p class="cc-text">Nous utilisons des cookies pour améliorer votre expérience et mesurer ' +
-      'l’efficacité de nos publicités. Vous pouvez accepter, refuser ou personnaliser votre choix. ' +
+      '<p class="cc-text">Nous utilisons un cookie marketing pour mesurer ' +
+      'l’efficacité de nos publicités Meta. Vous pouvez accepter, refuser ou personnaliser votre choix. ' +
       'Vos préférences sont enregistrées et modifiables à tout moment.</p>' +
       '<div class="cc-actions">' +
         '<button type="button" class="cc-btn cc-btn--refuse" data-cc="refuse">Tout refuser</button>' +
@@ -106,12 +105,6 @@
           '<div><p class="cc-cat-name">Strictement nécessaires</p>' +
           '<p class="cc-cat-desc">Indispensables au fonctionnement du site. Toujours actifs.</p></div>' +
           '<label class="cc-switch"><input type="checkbox" checked disabled aria-label="Cookies nécessaires (toujours actifs)"><span class="cc-slider"></span></label>' +
-        '</div>' +
-
-        '<div class="cc-cat">' +
-          '<div><p class="cc-cat-name">Mesure d’audience</p>' +
-          '<p class="cc-cat-desc">Nous aident à comprendre comment le site est utilisé, de façon anonyme.</p></div>' +
-          '<label class="cc-switch"><input type="checkbox" data-cc-cat="analytics" aria-label="Cookies de mesure d’audience"><span class="cc-slider"></span></label>' +
         '</div>' +
 
         '<div class="cc-cat">' +
@@ -140,7 +133,6 @@
     var ui = buildUI();
     var banner = ui.banner;
     var overlay = ui.overlay;
-    var analyticsInput = overlay.querySelector('[data-cc-cat="analytics"]');
     var marketingInput = overlay.querySelector('[data-cc-cat="marketing"]');
 
     var existing = readConsent();
@@ -150,12 +142,12 @@
     if (existing) {
       applyConsent(existing);
     } else {
-      applyConsent({ necessary: true, analytics: false, marketing: false });
+      applyConsent({ necessary: true, marketing: false });
       show(banner);
     }
 
     function setAll(value) {
-      var consent = { necessary: true, analytics: value, marketing: value };
+      var consent = { necessary: true, marketing: value };
       saveConsent(consent);
       applyConsent(consent);
       hide(banner);
@@ -163,8 +155,7 @@
     }
 
     function openModal() {
-      var c = readConsent() || { analytics: false, marketing: false };
-      analyticsInput.checked = !!c.analytics;
+      var c = readConsent() || { marketing: false };
       marketingInput.checked = !!c.marketing;
       hide(banner);
       show(overlay);
@@ -173,7 +164,6 @@
     function saveCustom() {
       var consent = {
         necessary: true,
-        analytics: analyticsInput.checked,
         marketing: marketingInput.checked
       };
       saveConsent(consent);
