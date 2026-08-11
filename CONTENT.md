@@ -23,15 +23,15 @@ Relire et modifier ici avant de reporter dans `index.html`.
 
 **Titre :** Quand vos clients vous cherchent sur Google, votre site doit les aider à vous *choisir*. (crochets = Instrument Serif italic ambre)
 
-**Sous-titre :** Site pro, fiche Google et WhatsApp direct. Création offerte. Dès 59 €/mois, livré en 7 jours, sans engagement.
+**Sous-titre :** Site pro, fiche Google et WhatsApp direct. Création initiale incluse. Dès 59 €/mois, sans engagement.
 
 **Bouton primaire :** Recevoir ma démo →
 
 **Bouton secondaire :** Projets récents
 
 **Stats :**
-- 7 jours — Mise en ligne
-- 0 € — Création offerte
+- 7 jours — Première version (après réception de tous les contenus, selon le périmètre validé)
+- 0 € — Frais de création
 - 59 €/mois — Abonnement tout compris
 
 ---
@@ -58,13 +58,13 @@ Relire et modifier ici avant de reporter dans `index.html`.
 On discute de votre activité, vos besoins et vos objectifs. 15 minutes suffisent.
 
 **Étape 2 — Maquette**
-Vous recevez une maquette gratuite de votre futur site sous 24 h. Sans engagement.
+Vous recevez une première proposition visuelle sous 24 h ouvrées. Sans engagement.
 
 **Étape 3 — Développement**
 On construit votre site avec le contenu que vous nous fournissez. Vous validez chaque étape.
 
 **Étape 4 — Mise en ligne**
-Votre site est en ligne en 7 jours. On s'occupe de l'hébergement et de la maintenance.
+La première version est préparée sous 7 jours ouvrés après réception de vos contenus. On s'occupe ensuite de l'hébergement et de la maintenance.
 
 ---
 
@@ -106,8 +106,8 @@ Pages légères, images optimisées et performance contrôlée avant chaque mise
 
 | Critère | Projet traditionnel* | LokWeb |
 |---|---|---|
-| Création du site | Souvent 2 000 à 10 000 € | 0 € (offerte) |
-| Délai | Plusieurs semaines à plusieurs mois | 7 jours |
+| Création du site | Souvent 2 000 à 10 000 € | 0 € de frais initiaux |
+| Délai | Plusieurs semaines à plusieurs mois | Première version sous 7 jours ouvrés* |
 | Engagement | Selon le contrat | Sans engagement |
 | Tarifs | Souvent sur devis | 59 €/mois clair |
 | Interlocuteur | Un ou plusieurs intervenants | Un seul, dédié |
@@ -139,8 +139,8 @@ Pour les entreprises qui veulent se démarquer.
 - Intégration Google Maps
 - Bouton WhatsApp direct intégré au site
 - Référencement SEO avancé
-- Modifications illimitées
-- Support prioritaire
+- Modifications courantes sur demande
+- Support prioritaire (réponse sous 24 h ouvrées)
 
 ### Commerce+ — 199 €/mois
 Pour les restaurants et commerces avec commande en ligne.
@@ -151,7 +151,7 @@ Pour les restaurants et commerces avec commande en ligne.
 - Tableau de bord commandes
 - Intégration paiement
 
-**Note :** Site vitrine dès 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Tous les prix sont hors TVA. La création est incluse dans l'abonnement, sans frais initiaux. Résiliation possible chaque mois.
+**Note :** Site vitrine dès 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Tous les prix sont hors TVA. La création initiale est incluse dans l'abonnement, sans frais initiaux. Résiliation possible chaque mois.
 
 **Après résiliation :** LokWeb héberge et maintient le site pendant l'abonnement. À la résiliation, le service et le site LokWeb sont désactivés à la fin du mois en cours. Le domaine enregistré au nom du client et les contenus fournis restent au client. Les modalités définitives figurent dans les conditions remises avant souscription.
 
@@ -182,7 +182,7 @@ J'ai lancé LokWeb pour proposer aux commerçants une alternative claire aux pro
 
 Je suis entrepreneur au Luxembourg. J'ai monté et opère plusieurs business locaux (restaurant, livraison, services), et j'ai construit leurs sites moi-même. Je sais ce dont un entrepreneur local a besoin — parce que je suis à votre place tous les jours.
 
-Avec LokWeb, je fais ce travail pour vous. Création offerte, dès 59 €/mois, un seul interlocuteur : moi.
+Avec LokWeb, je fais ce travail pour vous. Création initiale incluse, dès 59 €/mois, un seul interlocuteur : moi.
 
 **Note (après les paragraphes, avant les badges) :** Basé à Schifflange, je travaille avec des commerçants et artisans du Luxembourg francophone.
 
@@ -205,7 +205,7 @@ Avec LokWeb, je fais ce travail pour vous. Création offerte, dès 59 €/mois, 
 Un appel de 15 minutes pour comprendre votre activité et vos besoins.
 
 02 — Maquette
-Une proposition visuelle de votre site sous 24 h. Gratuit, sans engagement.
+Une première proposition visuelle sous 24 h ouvrées. Gratuite et sans engagement.
 
 03 — Développement
 On construit votre site. Vous validez à chaque étape.
@@ -219,7 +219,7 @@ Votre site est en production. On gère l'hébergement et la maintenance.
 
 **Titre :** Prêt à passer en ligne ?
 
-**Texte :** Recevez une maquette gratuite de votre futur site sous 24 h.
+**Texte :** Recevez une première proposition visuelle sous 24 h ouvrées. Gratuite et sans engagement.
 Sans engagement, sans blabla.
 
 **Bouton :** Recevoir ma démo →
@@ -255,6 +255,6 @@ Sans engagement, sans blabla.
 
 **Navigation :** Comment ça marche · Services · Tarifs · Projets récents · À propos · Contact
 
-**Légal :** Mentions légales · Politique de confidentialité · CGV
+**Légal :** Mentions légales · Politique de confidentialité · CGV · Annexe RGPD
 
 **Copyright :** © 2026 LokWeb — Tous droits réservés.
