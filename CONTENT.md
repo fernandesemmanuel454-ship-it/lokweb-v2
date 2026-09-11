@@ -1,174 +1,146 @@
-# LokWeb — Tous les textes du site
+# LokWeb — Textes du site
 
-Relire et modifier ici avant de reporter dans `index.html`.
+Contenu Business Local du 11 septembre 2026. Relire et modifier ici avant de reporter dans `index.html` ; les messages du formulaire figurent dans `script.js`. Les conditions complètes sont dans `cgv.html`.
 
----
+## Titre et description pour les recherches et les partages
 
-## Navigation
+**Titre :** LokWeb | Business Local — Votre site professionnel au Luxembourg
 
-- Comment ça marche
-- Services
-- Tarifs
-- Projets récents
-- À propos
-- Contact
-- Recevoir ma démo (bouton)
-- WhatsApp (bouton avec message « test MENU » prérempli, ouvre dans un nouvel onglet)
+**Description :** Site professionnel pour artisans et petites entreprises au Luxembourg. Business Local : 290 € HT de mise en service, puis 99 € HT/mois. Résiliable chaque mois.
 
----
+## Navigation principale
 
-## Hero
+Comment ça marche · Tarifs · Un exemple · Contact
 
-**Badge :** Agence web au Luxembourg
+**Boutons :** Parlons de votre site · WhatsApp
 
-**Titre :** Un site professionnel pour votre entreprise, *sans frais de création au départ*. (italique = Instrument Serif italic ambre)
+## Accueil
 
-**Sous-titre :** **À partir de 59 €/mois.** Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial.
+**Badge :** Artisans & petites entreprises · Luxembourg
 
-**Bouton primaire :** Recevoir ma démo →
+**Titre :** Votre savoir-faire mérite un site qui facilite les demandes de devis.
 
-**Bouton secondaire :** Projets récents
+**Présentation :** Artisan ou petite entreprise au Luxembourg ? Je prépare un site clair avec vos prestations, vos réalisations et un contact simple sur mobile. Vous vous concentrez sur votre activité ; je m’occupe du site et des mises à jour prévues.
 
-**Stats :**
-- 7 jours — Première version (après réception de tous les contenus, selon le périmètre validé)
-- Sans frais — De création au départ
-- 59 €/mois — Abonnement tout compris
+**Prix :** Business Local : 290 € HT de mise en service, puis 99 € HT/mois.
 
----
+**Précision :** Résiliable chaque mois. Sur douze mois : 1 478 € HT, hors nom de domaine et options acceptées.
 
-## Test MENU — restaurants et snacks
+**Bouton principal :** Parlons de votre site en 15 minutes
 
-**Titre :** Votre menu passe-t-il le test mobile ?
+**Bouton secondaire :** Voir un exemple réalisé
 
-**Texte :** Envoyez le nom de votre établissement ou son lien. Je vérifie gratuitement la lisibilité du menu, les horaires et la facilité de réservation sur téléphone.
+**Sous les boutons :** Un premier échange sans frais pour vérifier vos besoins et le périmètre. Aucun site complet n’est réalisé avant votre accord.
 
-**Preuves :** 2 ou 3 observations concrètes · Réponse sous 24 h ouvrées · Gratuit et sans engagement
+**Sous l’aperçu :** Schmoëtt, mon établissement à Schifflange.
 
-**CTA :** Envoyer MENU sur WhatsApp
+**Lien :** Découvrir le projet et son périmètre
 
----
+## Un exemple réalisé
 
-## Comment ça marche
+**Label :** Un projet concret
 
-**Label :** Simple et rapide
+**Titre :** Schmoëtt, le site de mon établissement.
 
-**Titre :** Comment ça marche
+Un projet à Schifflange pour voir mon travail, de la présentation mobile au parcours de commande. Il s’agit de mon propre établissement, pas d’un témoignage de client LokWeb indépendant.
 
-**Étape 1 — Échange**
-On discute de votre activité, vos besoins et vos objectifs. 15 minutes suffisent.
+Les fonctions de commande et de paiement de ce projet dépassent le périmètre de Business Local et nécessitent une proposition distincte.
 
-**Étape 2 — Maquette**
-Vous recevez une première proposition visuelle sous 24 h ouvrées. Sans engagement.
-
-**Étape 3 — Développement**
-On construit votre site avec le contenu que vous nous fournissez. Vous validez chaque étape.
-
-**Étape 4 — Mise en ligne**
-La première version est préparée sous 7 jours ouvrés après réception de vos contenus. On s'occupe ensuite de l'hébergement et de la maintenance.
-
----
+**Lien :** Voir le site Schmoëtt — https://schmoett.lu/
 
 ## Services
 
-**Label :** Tout inclus
+**Label :** Business Local
 
-**Titre :** Ce qu'on fait pour vous
+**Titre :** Un site clair. Un interlocuteur. Un suivi prévu.
 
-**Design sur mesure**
-Un site unique qui reflète votre identité. Pas de template générique.
+**Votre activité bien présentée**
 
-**Responsive mobile**
-Votre site s'adapte parfaitement à tous les écrans : mobile, tablette, desktop.
+Jusqu’à cinq pages commerciales en français pour un établissement ou une activité principale : accueil, prestations, réalisations, présentation et contact.
 
-**Référencement SEO**
-Les bases du référencement local sont intégrées dès la création pour améliorer votre visibilité sur Google.
+**Un contact simple sur mobile**
 
-**Hébergement inclus**
-Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.
+Un site adapté au téléphone, un formulaire court et vos liens téléphone et WhatsApp si vous utilisez ce canal. La réception des demandes est vérifiée avant lancement.
 
-**Maintenance continue**
-Mises à jour, corrections, modifications mineures : on s'occupe de tout.
+**Vos contenus mis en forme**
 
-**Performance optimale**
-Pages légères, images optimisées et performance contrôlée avant chaque mise en ligne.
+Un entretien de préparation de 30 minutes, une réécriture légère de 1 200 mots maximum et jusqu’à 15 photos fournies. Deux séries de retours regroupés avant lancement.
 
----
+**Les bases pour être trouvé**
 
-## Pourquoi LokWeb
+Préparation technique de base pour les moteurs de recherche. Vérification initiale des coordonnées, horaires et lien de votre fiche Google existante, avec votre accès autorisé.
 
-**Label :** La différence
+**Un site entretenu**
 
-**Titre :** Une alternative simple aux projets web traditionnels
+Hébergement, entretien technique courant et sauvegarde du périmètre livré pendant l’abonnement. Jusqu’à deux pages légales supplémentaires avec vos textes fournis ou validés.
 
-**Sous-titre :** Selon le périmètre et le prestataire, un projet web traditionnel peut demander un investissement initial important et plusieurs semaines de travail. LokWeb propose un modèle mensuel plus simple.
+**Des mises à jour encadrées**
 
-**Tableau comparatif :**
+30 minutes de modifications courantes par mois, non cumulables. Premier retour sous un jour ouvré ; modifications courantes dans un délai cible de cinq jours ouvrés.
 
-| Critère | Projet traditionnel* | LokWeb |
-|---|---|---|
-| Création du site | Souvent 2 000 à 10 000 € | Sans frais de création au départ |
-| Délai | Plusieurs semaines à plusieurs mois | Première version sous 7 jours ouvrés* |
-| Engagement | Selon le contrat | Sans engagement |
-| Tarifs | Souvent sur devis | À partir de 59 €/mois |
-| Interlocuteur | Un ou plusieurs intervenants | Un seul, dédié |
-| Maintenance | Selon l'offre | Incluse |
-| Mise en service | Étapes variables | WhatsApp suffit |
-
-\* Fourchettes indicatives : les prix, délais et conditions varient selon le prestataire et le périmètre du projet.
-
----
+**Précision :** Les corrections de nos erreurs de livraison ne consomment pas votre quota. Le référencement de base ne garantit ni classement Google, ni demandes, ni ventes.
 
 ## Tarifs
 
-**Label :** Transparent
+**Label :** Le prix complet, dès le départ
 
-**Titre :** Tarifs simples, sans surprise
+**Titre :** Une offre pour démarrer sur des bases claires.
 
-### Essentiel — 59 €/mois
-Idéal pour les indépendants et petits commerces.
-- Site vitrine jusqu'à 5 pages
-- Design responsive sur mesure
-- Hébergement et maintenance inclus
-- Référencement SEO de base
-- Certificat SSL
+**Offre :** Business Local — Site professionnel en abonnement
 
-### Business — 99 €/mois (Recommandé)
-Pour les entreprises qui veulent se démarquer.
-- Site jusqu'à 10 pages
-- Formulaire de contact avancé
-- Intégration Google Maps
-- Bouton WhatsApp direct intégré au site
-- Référencement SEO avancé
-- Modifications courantes sur demande
-- Support prioritaire (réponse sous 24 h ouvrées)
+**Prix :** 290 € HT de mise en service, puis 99 € HT/mois. Résiliable chaque mois.
 
-### Commerce+ — 199 €/mois
-Pour les restaurants et commerces avec commande en ligne.
-- Tout Business inclus
-- Système de commande en ligne
-- Menu digital interactif
-- Notifications par email
-- Tableau de bord commandes
-- Intégration paiement
+**Total :** Sur douze mois : 1 478 € HT, hors nom de domaine et options acceptées.
 
-**Note :** Site vitrine à partir de 59 €/mois. Menu interactif et réservation avec Commerce+ à 199 €/mois. Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial. Tous les prix sont hors TVA. Résiliation possible chaque mois.
+**Boutons :** Parlons de Business Local · Échanger sur WhatsApp
 
-**Après résiliation :** LokWeb héberge et maintient le site pendant l'abonnement. À la résiliation, le service et le site LokWeb sont désactivés à la fin du mois en cours. Le domaine enregistré au nom du client et les contenus fournis restent au client. Les modalités définitives figurent dans les conditions remises avant souscription.
+**Votre abonnement comprend :**
 
----
+- Jusqu’à 5 pages commerciales en français, pour un établissement ou une activité principale.
+- Jusqu’à 2 pages légales supplémentaires avec vos textes fournis ou validés.
+- Préparation des contenus fournis, dans les limites précisées ci-dessus, et 2 séries de retours.
+- Site mobile, contact simple et préparation technique de base pour les moteurs de recherche.
+- Hébergement, entretien technique courant et sauvegarde pendant l’abonnement.
+- 30 minutes de modifications courantes par mois, non cumulables.
 
-## Projets récents
+Les 290 € sont réglés après acceptation écrite et avant la production complète. Les 99 €/mois commencent à la mise en ligne validée, puis sont facturés mensuellement d’avance. La mise en service ne constitue pas l’achat du code du site.
 
-**Titre :** Projets récents
+**Lien :** Lire les conditions complètes
 
-**Note de positionnement :** la carte ci-dessous est présentée comme une référence neutre. Ne jamais la décrire comme « notre propre business » ou utiliser des formules du type « on mange ce qu'on cuisine ».
+**Exclusions :** Le nom de domaine, les licences payantes et les travaux supplémentaires sont chiffrés avant votre accord. Publicité, réseaux sociaux, rédaction spécialisée, traductions, photographie, boutique, paiement en ligne et développements métier spécifiques ne sont pas compris.
 
-### Schmoett
-Restaurant réel à Schifflange · Site mobile, carte interactive, Click & Collect et paiement Stripe.
-Projet réel et consultable.
-→ schmoett.lu
+## Comment ça marche
 
----
+**Label :** De l’échange au lancement
+
+**Titre :** Quatre étapes, avec votre accord.
+
+1. **Un premier échange.** En 15 minutes, nous vérifions le besoin, les contenus disponibles et le budget. Un aperçu limité à un écran peut ensuite être présenté si cela aide votre décision.
+2. **Un périmètre écrit.** Vous validez les pages, les options, le prix du domaine et les conditions. Les 290 € de mise en service sont réglés après cet accord, avant la production complète.
+3. **La création.** Première version sous sept jours ouvrés après paiement et réception de tous les contenus et accès. Le calendrier est suspendu en attendant vos éléments ou validations.
+4. **Votre validation, puis le lancement.** Le site est publié après votre validation écrite. L’abonnement de 99 € HT/mois commence à la mise en ligne. L’hébergement et le suivi prennent le relais.
+
+## Questions fréquentes
+
+**Label :** Avant de vous engager
+
+**Titre :** Les réponses utiles.
+
+**Que comprend la création de mon site ?**
+
+Jusqu’à cinq pages commerciales en français et deux pages légales supplémentaires pour un établissement ou une activité principale. Nous partons de vos informations et photos, avec une réécriture légère, jusqu’à 1 200 mots et 15 photos, et deux séries de retours regroupés. Le périmètre est écrit avant votre accord.
+
+**Quel est le coût total ?**
+
+290 € HT de mise en service, puis 99 € HT/mois à partir de la mise en ligne validée. Cela représente 1 478 € HT sur douze mois, sans engagement de douze mois. Le domaine, son renouvellement et toute option payante sont chiffrés avant votre accord.
+
+**Comment fonctionnent les modifications ?**
+
+Vous disposez de 30 minutes par mois, non cumulables, pour modifier des textes, horaires, tarifs ou photos. Les erreurs de notre livraison sont corrigées sans décompter ce quota. Premier retour sous un jour ouvré et délai cible de cinq jours ouvrés pour une modification courante. Un premier retour ne signifie pas une résolution immédiate. Les travaux supplémentaires nécessitent votre accord sur un devis.
+
+**Que se passe-t-il si j’arrête ?**
+
+Vous résiliez par email. Le service et le site sont désactivés à la fin de la période mensuelle déjà payée. Vous conservez le domaine enregistré à votre nom et vos textes et photos. Vous pouvez demander l’export de vos contenus et données exportables dans les 30 jours suivant la fin du service. Le code, les outils et les licences non transférables ne sont pas cédés ; une migration ou un achat du site demande un accord distinct.
 
 ## À propos
 
@@ -176,83 +148,76 @@ Projet réel et consultable.
 
 **Titre :** Emmanuel, restaurateur et fondateur de LokWeb
 
-**Paragraphes :**
-
-Je suis restaurateur au Luxembourg. J'ai créé LokWeb parce que je voyais trop de commerces perdre des clients simplement à cause d'un site dépassé, difficile à utiliser sur téléphone ou mal présenté sur Google.
+Je suis restaurateur au Luxembourg. J’ai créé LokWeb pour aider les entreprises locales à présenter leur travail clairement et à simplifier la prise de contact, en m’appuyant aussi sur l’expérience de mon propre établissement.
 
 Mon objectif est simple : créer des sites utiles, clairs et pensés pour aider les entreprises locales à obtenir davantage de contacts, de réservations et de clients.
 
-**Note (après les paragraphes, avant les badges) :** Basé à Schifflange, je travaille avec des commerçants et artisans du Luxembourg francophone.
+Basé à Schifflange, je m’adresse aux commerçants et artisans du Luxembourg francophone.
 
-**Badges :**
-- Basé au Luxembourg (icône Lucide `map-pin`)
-- Sans engagement (icône Lucide `unlock`)
-- Un seul interlocuteur (icône Lucide `user`)
+**Badges :** Basé au Luxembourg · Résiliable chaque mois · Un seul interlocuteur
 
-**CTA :** Me contacter directement →
-
----
-
-## Process
-
-**Label :** Notre méthode
-
-**Titre :** De l'idée à la mise en ligne
-
-01 — Échange
-Un appel de 15 minutes pour comprendre votre activité et vos besoins.
-
-02 — Maquette
-Une première proposition visuelle sous 24 h ouvrées. Gratuite et sans engagement.
-
-03 — Développement
-On construit votre site. Vous validez à chaque étape.
-
-04 — Mise en ligne
-Votre site est en production. On gère l'hébergement et la maintenance.
-
----
-
-## CTA final
-
-**Titre :** Prêt à passer en ligne ?
-
-**Texte :** Recevez une première proposition visuelle sous 24 h ouvrées. Gratuite et sans engagement.
-Sans engagement, sans blabla.
-
-**Bouton :** Recevoir ma démo →
-
----
+**Bouton :** Me contacter directement
 
 ## Contact
 
-**Label :** Parlons-en
+**Label :** Un premier échange sans frais
 
-**Titre :** Contact
+**Titre :** Parlons de votre site
 
-**Email :** info@lokweb.lu
-**WhatsApp :** +352 661 47 41 30 (message « test MENU » prérempli)
-**Téléphone :** +352 661 47 41 30 (tel:+352661474130)
-**Adresse :** 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
-**Disponibilité :** Réponse WhatsApp sous 24 h ouvrées
+Indiquez votre entreprise et votre email. Je vous réponds sous un jour ouvré pour comprendre votre besoin et convenir d’un échange.
 
-**Champs du formulaire :**
-- Nom (requis)
-- Email (requis)
-- Message (requis)
+**Formulaire :**
 
-**Bouton :** Envoyer le message
+| Champ | Obligation | Exemple affiché |
+|---|---|---|
+| Votre entreprise | Obligatoire | Nom de votre entreprise |
+| Votre email | Obligatoire | vous@entreprise.lu |
+| Votre site actuel, si vous en avez un | Facultatif | www.votre-entreprise.lu |
+| Votre besoin en quelques mots | Facultatif | Créer un site, présenter vos prestations, faciliter les demandes… |
 
-**Message de confirmation :** Message envoyé avec succès. On vous répond sous 24 h.
+**Contexte après un bouton Business Local :** Votre échange concerne Business Local : 290 € HT de mise en service puis 99 € HT/mois.
 
----
+**Confidentialité :** Ces informations servent à répondre à votre demande. Confidentialité et droits.
 
-## Footer
+**Bouton :** Demander un échange
+
+**Pendant l’envoi :** Envoi en cours…
+
+**Confirmation :** Votre demande a été transmise. Je vous réponds sous un jour ouvré.
+
+**Bouton après transmission :** Demande transmise
+
+**Échec :** Votre demande n’a pas pu être transmise. Réessayez ou écrivez à info@lokweb.lu.
+
+**Coordonnées :**
+
+- Email : info@lokweb.lu
+- WhatsApp et téléphone : +352 661 47 41 30
+- Adresse : 19 rue Aloyse Kayser, L-3852 Schifflange, Luxembourg
+- Disponibilité : Premier retour sous un jour ouvré
+
+### Entrée restaurants et snacks
+
+**Texte :** Vous gérez un restaurant ou un snack ? Faisons le point sur votre menu et votre site.
+
+**Lien :** Parler de mon restaurant sur WhatsApp
+
+### Messages WhatsApp préremplis
+
+**Contact général :** Bonjour Emmanuel, je souhaite échanger au sujet du site de mon entreprise.
+
+**Offre Business Local :** Bonjour Emmanuel, je souhaite échanger au sujet de Business Local : 290 € HT de mise en service puis 99 € HT/mois.
+
+**Restaurant :** Bonjour Emmanuel, je souhaite faire le point sur le menu et le site de mon restaurant.
+
+## Pied de page
 
 **Marque :** LokWeb — Agence web au Luxembourg. Sites professionnels en abonnement mensuel.
 
-**Navigation :** Comment ça marche · Services · Tarifs · Projets récents · À propos · Contact
+**Navigation :** Comment ça marche · Services · Tarifs · Un exemple · À propos · Contact
 
 **Légal :** Mentions légales · Politique de confidentialité · CGV · Annexe RGPD
+
+**Bouton :** Gérer mes cookies
 
 **Copyright :** © 2026 LokWeb — Tous droits réservés.

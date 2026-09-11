@@ -75,16 +75,59 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   }, 4000);
 })();
 
+// ---- Mesure des intentions et transmissions (sans données du formulaire) ----
+function trackContactEvent(name, parameters) {
+  try {
+    const consent = window.lokwebConsent;
+    if (!consent || !consent.hasMarketingConsent() || typeof window.fbq !== 'function') return;
+    window.fbq('trackCustom', name, parameters);
+  } catch (error) {
+    // Une erreur de mesure ne doit jamais interrompre un contact.
+  }
+}
+
 // ---- Formulaire de contact ----
 const contactForm = document.querySelector('.contact-form');
+const contactSources = new Set(['contact_direct', 'header', 'hero', 'tarifs', 'a_propos', 'footer_cta']);
+let selectedOffer = 'Général';
+let selectedSource = 'contact_direct';
+
+function syncContactContext() {
+  if (!contactForm) return;
+  const offer = contactForm.querySelector('[name="offer"]');
+  const source = contactForm.querySelector('[name="source"]');
+  const context = document.getElementById('contact-context');
+  if (offer) offer.value = selectedOffer;
+  if (source) source.value = selectedSource;
+  if (context) {
+    context.textContent = selectedOffer === 'Business Local'
+      ? 'Votre échange concerne Business Local : 290 € HT de mise en service puis 99 € HT/mois.'
+      : '';
+    context.hidden = selectedOffer !== 'Business Local';
+  }
+}
+
 if (contactForm) {
+  let isSubmitting = false;
+  let isSubmitted = false;
+  syncContactContext();
+
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
+    if (isSubmitting || isSubmitted || !contactForm.reportValidity()) return;
 
     const btn = contactForm.querySelector('button[type="submit"]');
+    const status = document.getElementById('form-status');
     const originalText = btn.innerHTML;
+    isSubmitting = true;
     btn.disabled = true;
-    btn.innerHTML = 'Envoi en cours\u2026';
+    btn.textContent = 'Envoi en cours…';
+    contactForm.setAttribute('aria-busy', 'true');
+    if (status) {
+      status.setAttribute('role', 'status');
+      status.textContent = 'Envoi en cours…';
+    }
+    syncContactContext();
 
     try {
       const res = await fetch(contactForm.action, {
@@ -93,20 +136,28 @@ if (contactForm) {
         headers: { 'Accept': 'application/json' }
       });
 
-      if (!res.ok) throw new Error('Erreur serveur');
+      if (!res.ok) throw new Error('Envoi non accepté');
 
-      // Conversion : événement Meta "Lead" (uniquement si le pixel est chargé = consentement marketing)
-      if (typeof window.fbq === 'function') { window.fbq('track', 'Lead'); }
-
-      contactForm.innerHTML =
-        '<div style="text-align:center;padding:40px 0;">' +
-        '<p style="font-size:1.1rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;">Message envoyé avec succès.</p>' +
-        '<p style="font-size:.9rem;color:var(--text-muted);">On vous répond sous 24\u00A0h.</p>' +
-        '</div>';
-    } catch (err) {
-      alert('Impossible d\u2019envoyer le message. Réessayez ou écrivez à info@lokweb.lu.');
+      // L'acceptation technique ne prouve ni réception finale ni qualification.
+      isSubmitted = true;
+      trackContactEvent('FormSubmission', { status: 'accepted' });
+      if (status) {
+        status.textContent = 'Votre demande a été transmise. Je vous réponds sous un jour ouvré.';
+        status.setAttribute('tabindex', '-1');
+        status.focus({ preventScroll: true });
+      }
+      btn.textContent = 'Demande transmise';
+    } catch (error) {
+      if (status) {
+        status.setAttribute('role', 'alert');
+        status.textContent = 'Votre demande n’a pas pu être transmise. Réessayez ou écrivez à info@lokweb.lu.';
+        status.setAttribute('tabindex', '-1');
+        status.focus({ preventScroll: true });
+      }
     } finally {
-      if (btn.isConnected) {
+      isSubmitting = false;
+      contactForm.setAttribute('aria-busy', 'false');
+      if (!isSubmitted) {
         btn.disabled = false;
         btn.innerHTML = originalText;
       }
@@ -114,20 +165,32 @@ if (contactForm) {
   });
 }
 
-// ---- Événement Meta "Lead" sur les liens de contact (WhatsApp, email, téléphone) ----
-// Écouteur délégué unique. Ne déclenche fbq que si le pixel est chargé (consentement marketing).
-// Ne bloque jamais la navigation : le lien s'ouvre normalement.
+// ---- Contexte du contact et clics (la navigation du lien reste native) ----
 document.addEventListener('click', (e) => {
-  const link = e.target.closest('a');
+  const link = e.target.closest && e.target.closest('a');
   if (!link) return;
 
   const href = link.getAttribute('href') || '';
-  const isContact =
-    href.includes('wa.me') ||
-    href.startsWith('mailto:') ||
-    href.startsWith('tel:');
-
-  if (isContact && typeof window.fbq === 'function') {
-    window.fbq('track', 'Lead');
+  if (href === '#contact' && contactForm) {
+    const source = contactSources.has(link.dataset.contactSource)
+      ? link.dataset.contactSource : 'contact_direct';
+    if (link.dataset.offer === 'business-local') {
+      selectedOffer = 'Business Local';
+      selectedSource = source;
+    } else if (selectedOffer !== 'Business Local') {
+      selectedSource = source;
+    }
+    syncContactContext();
   }
+
+  let channel;
+  if (/^mailto:/i.test(href)) channel = 'email';
+  else if (/^tel:/i.test(href)) channel = 'phone';
+  else {
+    try {
+      const url = new URL(href, window.location.href);
+      if (url.protocol === 'https:' && url.hostname === 'wa.me') channel = 'whatsapp';
+    } catch (error) { /* Un lien mal formé n'est pas un événement de contact. */ }
+  }
+  if (channel) trackContactEvent('ContactClick', { channel });
 });

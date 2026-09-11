@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LokWeb | Agence web Luxembourg — Site professionnel en abonnement</title>
-  <meta name="description" content="Un site professionnel pour votre entreprise, sans frais de création au départ. À partir de 59 €/mois, avec mise en ligne, hébergement et accompagnement inclus.">
+  <title>LokWeb | Business Local — Votre site professionnel au Luxembourg</title>
+  <meta name="description" content="Site professionnel pour artisans et petites entreprises au Luxembourg. Business Local : 290 € HT de mise en service, puis 99 € HT/mois. Résiliable chaque mois.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.lokweb.lu/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.lokweb.lu/">
-  <meta property="og:title" content="LokWeb | Agence web Luxembourg — Site professionnel en abonnement">
-  <meta property="og:description" content="Un site professionnel pour votre entreprise, sans frais de création au départ. À partir de 59 €/mois, avec mise en ligne, hébergement et accompagnement inclus.">
+  <meta property="og:title" content="LokWeb | Business Local — Votre site professionnel au Luxembourg">
+  <meta property="og:description" content="Site professionnel pour artisans et petites entreprises au Luxembourg. Business Local : 290 € HT de mise en service, puis 99 € HT/mois. Résiliable chaque mois.">
   <meta property="og:locale" content="fr_LU">
   <meta property="og:site_name" content="LokWeb">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="LokWeb | Agence web Luxembourg — Site professionnel en abonnement">
-  <meta name="twitter:description" content="Un site professionnel pour votre entreprise, sans frais de création au départ. À partir de 59 €/mois, avec mise en ligne, hébergement et accompagnement inclus.">
+  <meta name="twitter:title" content="LokWeb | Business Local — Votre site professionnel au Luxembourg">
+  <meta name="twitter:description" content="Site professionnel pour artisans et petites entreprises au Luxembourg. Business Local : 290 € HT de mise en service, puis 99 € HT/mois. Résiliable chaque mois.">
 
   <!-- Favicon placeholder -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232F5CFF'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Inter,sans-serif' font-weight='700' font-size='18'>L</text></svg>">
@@ -53,7 +53,19 @@
       "@type": "Country",
       "name": "Luxembourg"
     },
-    "priceRange": "59 €–199 €/mois"
+    "priceRange": "290 € HT de mise en service puis 99 € HT/mois",
+    "telephone": "+352661474130",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Business Local",
+      "itemListElement": [{
+        "@type": "Offer",
+        "name": "LokWeb Business Local",
+        "url": "https://www.lokweb.lu/#tarifs",
+        "description": "290 € HT de mise en service puis 99 € HT par mois ; 1 478 € HT sur douze mois, hors domaine et options acceptées. Résiliable chaque mois. Jusqu’à 5 pages commerciales en français et 2 pages légales, 30 minutes de modifications par mois.",
+        "itemOffered": {"@type": "Service", "name": "Site professionnel Business Local"}
+      }]
+    }
   }
   </script>
 
@@ -61,8 +73,6 @@
   <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-
-  <!-- ========== NAV ========== -->
   <nav class="nav" id="nav">
     <div class="container nav-inner">
       <a href="/" class="nav-logo">Lok<span>Web</span></a>
@@ -71,306 +81,84 @@
       </button>
       <div class="nav-links" id="nav-links">
         <a href="#comment-ca-marche">Comment ça marche</a>
-        <a href="#services">Services</a>
+
         <a href="#tarifs">Tarifs</a>
-        <a href="#projets">Projets récents</a>
-        <a href="#a-propos">À propos</a>
+        <a href="#projets">Un exemple</a>
+
         <a href="#contact">Contact</a>
-        <a href="#contact" class="btn btn-sm">Recevoir ma démo</a>
-        <a href="https://wa.me/352661474130?text=Bonjour%20LokWeb%2C%20je%20souhaite%20faire%20le%20test%20MENU%20pour%20mon%20restaurant." target="_blank" rel="noopener" class="btn btn-sm btn-whatsapp" aria-label="Demander le test MENU à LokWeb sur WhatsApp (nouvelle fenêtre)">
+        <a href="#contact" data-contact-source="header" class="btn btn-sm">Parlons de votre site</a>
+        <a href="https://wa.me/352661474130?text=Bonjour%20Emmanuel%2C%20je%20souhaite%20%C3%A9changer%20au%20sujet%20du%20site%20de%20mon%20entreprise." target="_blank" rel="noopener" class="btn btn-sm btn-whatsapp" aria-label="Contacter Emmanuel sur WhatsApp (nouvelle fenêtre)">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
           <span>WhatsApp</span>
         </a>
       </div>
     </div>
   </nav>
-
-  <!-- ========== HERO ========== -->
+  <main>
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-content fade-up">
-        <span class="badge">Agence web au Luxembourg</span>
-        <h1>Un site professionnel pour votre entreprise, <em>sans frais de création au départ</em>.</h1>
-        <p class="hero-sub"><strong>À partir de 59&nbsp;€/mois.</strong> Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial.</p>
+        <span class="badge">Artisans &amp; petites entreprises · Luxembourg</span>
+        <h1>Votre savoir-faire mérite un site qui <em>facilite les demandes de devis.</em></h1>
+        <p class="hero-sub">Artisan ou petite entreprise au Luxembourg&nbsp;? Je prépare un site clair avec vos prestations, vos réalisations et un contact simple sur mobile. Vous vous concentrez sur votre activité&nbsp;; je m’occupe du site et des mises à jour prévues.</p>
+        <p class="hero-price"><strong>Business Local&nbsp;: 290&nbsp;€ HT de mise en service,<br>puis 99&nbsp;€ HT/mois.</strong></p>
+        <p class="hero-price-note">Résiliable chaque mois. Sur douze mois&nbsp;: 1&nbsp;478&nbsp;€ HT,<br>hors nom de domaine et options acceptées.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn">Recevoir ma démo <i data-lucide="arrow-right"></i></a>
-          <a href="#projets" class="btn btn-outline">Projets récents</a>
+          <a href="#contact" data-contact-source="hero" data-offer="business-local" class="btn">Parlons de votre site en 15 minutes <i data-lucide="arrow-right"></i></a>
+          <a href="#projets" class="btn btn-outline">Voir un exemple réalisé</a>
         </div>
-        <div class="hero-stats">
-          <div class="stat">
-            <span class="stat-number">7 jours</span>
-            <span class="stat-label">Première version*</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">Sans frais</span>
-            <span class="stat-label">de création au départ</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">59&nbsp;€/mois</span>
-            <span class="stat-label">Abonnement tout compris</span>
-          </div>
-        </div>
-        <p class="hero-legal-note">* Après réception de l’ensemble des contenus nécessaires, selon le périmètre validé.</p>
+        <p class="hero-legal-note">Un premier échange sans frais pour vérifier vos besoins et le périmètre. Aucun site complet n’est réalisé avant votre accord.</p>
       </div>
-      <div class="hero-visual fade-up" style="animation-delay:.15s">
-        <div class="hero-mockup" id="hero-carousel" aria-label="Aperçu de nos projets récents">
-          <div class="mockup-bar">
-            <span class="mockup-dot mockup-dot-red"></span>
-            <span class="mockup-dot mockup-dot-yellow"></span>
-            <span class="mockup-dot mockup-dot-green"></span>
-            <span class="mockup-url" id="mockup-url">schmoett.lu</span>
-          </div>
-          <div class="mockup-body">
-            <div class="carousel-track" aria-live="polite">
-              <img class="carousel-slide is-active" src="public/images/schmoett.png" alt="Site Schmoett — restaurant à Schifflange" data-url="schmoett.lu" loading="eager" decoding="async">
-            </div>
-            <span class="mockup-credit">Site par LokWeb</span>
-          </div>
+      <div class="hero-visual fade-up">
+        <div class="hero-mockup" id="hero-carousel" aria-label="Réalisation Schmoëtt">
+          <div class="mockup-bar"><span class="mockup-dot mockup-dot-red"></span><span class="mockup-dot mockup-dot-yellow"></span><span class="mockup-dot mockup-dot-green"></span><span class="mockup-url" id="mockup-url">schmoett.lu</span></div>
+          <div class="mockup-body"><div class="carousel-track"><img class="carousel-slide is-active" src="public/images/schmoett-business-local.png" alt="Aperçu du site Schmoëtt, établissement du fondateur de LokWeb" width="1280" height="640" loading="eager" decoding="async"></div><span class="mockup-credit">Une réalisation LokWeb</span></div>
         </div>
+        <p class="hero-proof">Schmoëtt, mon établissement à Schifflange.<br><a href="#projets">Découvrir le projet et son périmètre <span aria-hidden="true">↗</span></a></p>
       </div>
     </div>
   </section>
 
-  <!-- ========== TEST MENU — CAMPAGNE RESTAURANTS ========== -->
-  <section id="test-menu" class="section menu-audit-section">
-    <div class="container">
-      <div class="menu-audit-card fade-up">
-        <div class="menu-audit-content">
-          <span class="section-label menu-audit-label">Restaurants &amp; snacks au Luxembourg</span>
-          <h2>Votre menu passe-t-il le test mobile&nbsp;?</h2>
-          <p>Envoyez le nom de votre établissement ou son lien. Je vérifie gratuitement la
-          lisibilité du menu, les horaires et la facilité de réservation sur téléphone.</p>
-          <ul class="menu-audit-points" aria-label="Contenu du test mobile gratuit">
-            <li><i data-lucide="check"></i> 2 ou 3 observations concrètes</li>
-            <li><i data-lucide="check"></i> Réponse sous 24&nbsp;h ouvrées</li>
-            <li><i data-lucide="check"></i> Gratuit et sans engagement</li>
-          </ul>
-        </div>
-        <a href="https://wa.me/352661474130?text=Bonjour%20LokWeb%2C%20je%20souhaite%20faire%20le%20test%20MENU%20pour%20mon%20restaurant." target="_blank" rel="noopener" class="btn btn-whatsapp menu-audit-cta" aria-label="Envoyer MENU à LokWeb sur WhatsApp (nouvelle fenêtre)">
-          <i data-lucide="message-circle"></i> Envoyer MENU sur WhatsApp
-        </a>
-      </div>
+  <section id="projets" class="section section-light proof-section">
+    <div class="container proof-grid">
+      <div><span class="section-label">Un projet concret</span><h2>Schmoëtt, le site de mon établissement.</h2></div>
+      <div><p>Un projet à Schifflange pour voir mon travail, de la présentation mobile au parcours de commande. Il s’agit de mon propre établissement, pas d’un témoignage de client LokWeb indépendant.</p><p class="proof-note">Les fonctions de commande et de paiement de ce projet dépassent le périmètre de Business Local et nécessitent une proposition distincte.</p><a href="https://schmoett.lu/" target="_blank" rel="noopener" class="portfolio-link" aria-label="Voir le site Schmoëtt (nouvelle fenêtre)">Voir le site Schmoëtt <i data-lucide="external-link"></i></a></div>
     </div>
   </section>
 
-  <!-- ========== COMMENT ÇA MARCHE ========== -->
-  <section id="comment-ca-marche" class="section section-light">
-    <div class="container">
-      <span class="section-label fade-up">Simple et rapide</span>
-      <h2 class="section-title fade-up">Comment ça marche</h2>
-      <div class="steps">
-        <div class="step fade-up">
-          <div class="step-number">1</div>
-          <h3>Échange</h3>
-          <p>On discute de votre activité, vos besoins et vos objectifs. 15 minutes suffisent.</p>
-        </div>
-        <div class="step fade-up" style="animation-delay:.1s">
-          <div class="step-number">2</div>
-          <h3>Maquette</h3>
-          <p>Vous recevez une première proposition visuelle sous 24&nbsp;h ouvrées. Sans engagement.</p>
-        </div>
-        <div class="step fade-up" style="animation-delay:.2s">
-          <div class="step-number">3</div>
-          <h3>Développement</h3>
-          <p>On construit votre site avec le contenu que vous nous fournissez. Vous validez chaque étape.</p>
-        </div>
-        <div class="step fade-up" style="animation-delay:.3s">
-          <div class="step-number">4</div>
-          <h3>Mise en ligne</h3>
-          <p>La première version est préparée sous 7 jours ouvrés après réception de vos contenus. On s'occupe ensuite de l'hébergement et de la maintenance.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== SERVICES ========== -->
   <section id="services" class="section section-dark">
     <div class="container">
-      <span class="section-label fade-up">Tout inclus</span>
-      <h2 class="section-title fade-up">Ce qu'on fait pour vous</h2>
+      <span class="section-label">Business Local</span><h2 class="section-title">Un site clair. Un interlocuteur. Un suivi prévu.</h2>
       <div class="services-grid">
-        <div class="service-card fade-up">
-          <div class="service-icon"><i data-lucide="layout"></i></div>
-          <h3>Design sur mesure</h3>
-          <p>Un site unique qui reflète votre identité. Pas de template générique.</p>
-        </div>
-        <div class="service-card fade-up" style="animation-delay:.05s">
-          <div class="service-icon"><i data-lucide="smartphone"></i></div>
-          <h3>Responsive mobile</h3>
-          <p>Votre site s'adapte parfaitement à tous les écrans : mobile, tablette, desktop.</p>
-        </div>
-        <div class="service-card fade-up" style="animation-delay:.1s">
-          <div class="service-icon"><i data-lucide="search"></i></div>
-          <h3>Référencement SEO</h3>
-          <p>Les bases du référencement local sont intégrées dès la création pour améliorer votre visibilité sur Google.</p>
-        </div>
-        <div class="service-card fade-up" style="animation-delay:.15s">
-          <div class="service-icon"><i data-lucide="server"></i></div>
-          <h3>Hébergement inclus</h3>
-          <p>Hébergement rapide et sécurisé, inclus dans votre abonnement. Rien à gérer.</p>
-        </div>
-        <div class="service-card fade-up" style="animation-delay:.2s">
-          <div class="service-icon"><i data-lucide="shield"></i></div>
-          <h3>Maintenance continue</h3>
-          <p>Mises à jour, corrections, modifications mineures : on s'occupe de tout.</p>
-        </div>
-        <div class="service-card fade-up" style="animation-delay:.25s">
-          <div class="service-icon"><i data-lucide="zap"></i></div>
-          <h3>Performance optimale</h3>
-          <p>Pages légères, images optimisées et performance contrôlée avant chaque mise en ligne.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== POURQUOI LOKWEB ========== -->
-  <section id="pourquoi" class="section section-light">
-    <div class="container">
-      <span class="section-label fade-up">La différence</span>
-      <h2 class="section-title fade-up">Une alternative simple aux projets web traditionnels</h2>
-      <p class="section-sub fade-up">Selon le périmètre et le prestataire, un projet web traditionnel peut demander un investissement initial important et plusieurs semaines de travail. LokWeb propose un modèle mensuel plus simple.</p>
-
-      <div class="compare fade-up">
-        <div class="compare-row compare-head">
-          <div class="compare-cell compare-label">Critère</div>
-          <div class="compare-cell compare-agency">Projet traditionnel*</div>
-          <div class="compare-cell compare-lokweb">LokWeb</div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Création du site</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Souvent 2&nbsp;000 à 10&nbsp;000&nbsp;€</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>Sans frais de création au départ</span></div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Délai</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Plusieurs semaines à plusieurs mois</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>Première version sous 7&nbsp;jours ouvrés*</span></div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Engagement</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Selon le contrat</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>Sans engagement</span></div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Tarifs</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Souvent sur devis</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>À partir de 59&nbsp;€/mois</span></div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Interlocuteur</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Un ou plusieurs intervenants</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>Un seul, dédié</span></div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Maintenance</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Selon l'offre</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>Incluse</span></div>
-        </div>
-
-        <div class="compare-row">
-          <div class="compare-cell compare-label">Mise en service</div>
-          <div class="compare-cell compare-agency" data-role="Projet traditionnel"><i data-lucide="minus"></i><span>Étapes variables</span></div>
-          <div class="compare-cell compare-lokweb" data-role="LokWeb"><i data-lucide="check"></i><span>WhatsApp suffit</span></div>
-        </div>
-      </div>
-      <p class="compare-note fade-up">* Fourchettes indicatives&nbsp;: les prix, délais et conditions varient selon le prestataire et le périmètre du projet.</p>
-    </div>
-  </section>
-
-  <!-- ========== TARIFS ========== -->
+<div class="service-card fade-up"><div class="service-icon"><i data-lucide="layout"></i></div><h3>Votre activité bien présentée</h3><p>Jusqu’à cinq pages commerciales en français pour un établissement ou une activité principale&nbsp;: accueil, prestations, réalisations, présentation et contact.</p></div>
+<div class="service-card fade-up"><div class="service-icon"><i data-lucide="smartphone"></i></div><h3>Un contact simple sur mobile</h3><p>Un site adapté au téléphone, un formulaire court et vos liens téléphone et WhatsApp si vous utilisez ce canal. La réception des demandes est vérifiée avant lancement.</p></div>
+<div class="service-card fade-up"><div class="service-icon"><i data-lucide="pencil-line"></i></div><h3>Vos contenus mis en forme</h3><p>Un entretien de préparation de 30 minutes, une réécriture légère de 1&nbsp;200 mots maximum et jusqu’à 15 photos fournies. Deux séries de retours regroupés avant lancement.</p></div>
+<div class="service-card fade-up"><div class="service-icon"><i data-lucide="search"></i></div><h3>Les bases pour être trouvé</h3><p>Préparation technique de base pour les moteurs de recherche. Vérification initiale des coordonnées, horaires et lien de votre fiche Google existante, avec votre accès autorisé.</p></div>
+<div class="service-card fade-up"><div class="service-icon"><i data-lucide="server"></i></div><h3>Un site entretenu</h3><p>Hébergement, entretien technique courant et sauvegarde du périmètre livré pendant l’abonnement. Jusqu’à deux pages légales supplémentaires avec vos textes fournis ou validés.</p></div>
+<div class="service-card fade-up"><div class="service-icon"><i data-lucide="clock"></i></div><h3>Des mises à jour encadrées</h3><p>30 minutes de modifications courantes par mois, non cumulables. Premier retour sous un jour ouvré&nbsp;; modifications courantes dans un délai cible de cinq jours ouvrés.</p></div>
+</div><p class="service-note">Les corrections de nos erreurs de livraison ne consomment pas votre quota. Le référencement de base ne garantit ni classement Google, ni demandes, ni ventes.</p></div></section>
   <section id="tarifs" class="section section-light">
     <div class="container">
-      <span class="section-label fade-up">Transparent</span>
-      <h2 class="section-title fade-up">Tarifs simples, sans surprise</h2>
-      <div class="pricing-grid">
-
-        <div class="pricing-card fade-up">
-          <h3 class="pricing-name">Essentiel</h3>
-          <div class="pricing-price"><span class="price-amount">59&nbsp;€</span><span class="price-period">/mois</span></div>
-          <p class="pricing-desc">Idéal pour les artisans et indépendants qui veulent simplement exister sur Internet.</p>
-          <ul class="pricing-features">
-            <li><i data-lucide="check"></i> Site professionnel jusqu'à 5 pages</li>
-            <li><i data-lucide="check"></i> Trouvable sur Google</li>
-            <li><i data-lucide="check"></i> Formulaire de contact → vos messages arrivent sur votre email</li>
-            <li><i data-lucide="check"></i> Fonctionne sur mobile, tablette et ordinateur</li>
-            <li><i data-lucide="check"></i> Hébergement et sécurité inclus</li>
-            <li><i data-lucide="check"></i> 1 modification par mois incluse</li>
-          </ul>
-          <a href="#contact" class="btn btn-outline btn-block">Démarrer avec Essentiel</a>
-        </div>
-
-        <div class="pricing-card pricing-featured fade-up" style="animation-delay:.1s">
-          <span class="pricing-badge">Recommandé</span>
-          <h3 class="pricing-name">Business</h3>
-          <div class="pricing-price"><span class="price-amount">99&nbsp;€</span><span class="price-period">/mois</span></div>
-          <p class="pricing-desc">Pour les entreprises qui veulent que leur site leur ramène des clients.</p>
-          <ul class="pricing-features">
-            <li><i data-lucide="check"></i> Site professionnel jusqu'à 10 pages</li>
-            <li><i data-lucide="check"></i> Bases du référencement local intégrées</li>
-            <li><i data-lucide="check"></i> Formulaire de contact avancé (pièces jointes, devis, etc.)</li>
-            <li><i data-lucide="check"></i> Localisation sur Google Maps</li>
-            <li><i data-lucide="check"></i> Bouton WhatsApp direct intégré au site</li>
-            <li><i data-lucide="check"></i> Modifications courantes sur demande</li>
-            <li><i data-lucide="check"></i> Support prioritaire (réponse sous 24&nbsp;h ouvrées)</li>
-            <li><i data-lucide="check"></i> Tout ce qui est inclus dans Essentiel</li>
-          </ul>
-          <a href="#contact" class="btn btn-block">Démarrer avec Business</a>
-        </div>
-
-        <div class="pricing-card fade-up" style="animation-delay:.2s">
-          <h3 class="pricing-name">Commerce+</h3>
-          <div class="pricing-price"><span class="price-amount">199&nbsp;€</span><span class="price-period">/mois</span></div>
-          <p class="pricing-desc">Pour les restaurants et commerces qui veulent un menu interactif, des réservations ou vendre directement en ligne.</p>
-          <ul class="pricing-features">
-            <li><i data-lucide="check"></i> Tout ce qui est inclus dans Business</li>
-            <li><i data-lucide="check"></i> Système de commande/réservation en ligne</li>
-            <li><i data-lucide="check"></i> Menu digital interactif</li>
-            <li><i data-lucide="check"></i> Paiement en ligne sécurisé (Stripe)</li>
-            <li><i data-lucide="check"></i> Notifications email à chaque commande</li>
-            <li><i data-lucide="check"></i> Tableau de bord pour suivre vos commandes</li>
-          </ul>
-          <a href="#contact" class="btn btn-outline btn-block">Démarrer avec Commerce+</a>
-        </div>
-
+      <span class="section-label">Le prix complet, dès le départ</span><h2 class="section-title">Une offre pour démarrer sur des bases claires.</h2>
+      <div class="business-offer fade-up">
+        <div class="offer-summary"><span class="offer-kicker">Site professionnel en abonnement</span><h3>Business Local</h3><p class="setup-price">290&nbsp;€ HT <span>de mise en service</span></p><p class="monthly-price"><span>puis</span> 99&nbsp;€ <span>HT/mois</span></p><p>Résiliable chaque mois.</p><p class="offer-total">Sur douze mois&nbsp;: <strong>1&nbsp;478&nbsp;€ HT</strong>, hors nom de domaine et options acceptées.</p><a href="#contact" data-contact-source="tarifs" data-offer="business-local" class="btn btn-block">Parlons de Business Local <i data-lucide="arrow-right"></i></a><a href="https://wa.me/352661474130?text=Bonjour%20Emmanuel%2C%20je%20souhaite%20%C3%A9changer%20au%20sujet%20de%20Business%20Local%20%3A%20290%20%E2%82%AC%20HT%20de%20mise%20en%20service%20puis%2099%20%E2%82%AC%20HT/mois." target="_blank" rel="noopener" class="offer-whatsapp">Échanger sur WhatsApp <i data-lucide="external-link"></i></a></div>
+        <div class="offer-details"><h3>Votre abonnement comprend</h3><ul class="pricing-features">
+          <li><i data-lucide="check"></i><span>Jusqu’à 5 pages commerciales en français, pour un établissement ou une activité principale.</span></li>
+          <li><i data-lucide="check"></i><span>Jusqu’à 2 pages légales supplémentaires avec vos textes fournis ou validés.</span></li>
+          <li><i data-lucide="check"></i><span>Préparation des contenus fournis, dans les limites précisées ci-dessus, et 2 séries de retours.</span></li>
+          <li><i data-lucide="check"></i><span>Site mobile, contact simple et préparation technique de base pour les moteurs de recherche.</span></li>
+          <li><i data-lucide="check"></i><span>Hébergement, entretien technique courant et sauvegarde pendant l’abonnement.</span></li>
+          <li><i data-lucide="check"></i><span>30 minutes de modifications courantes par mois, non cumulables.</span></li>
+        </ul><p class="offer-terms">Les 290&nbsp;€ sont réglés après acceptation écrite et avant la production complète. Les 99&nbsp;€/mois commencent à la mise en ligne validée, puis sont facturés mensuellement d’avance. La mise en service ne constitue pas l’achat du code du site.</p><a href="cgv.html" class="text-link">Lire les conditions complètes</a></div>
       </div>
-      <p class="pricing-note fade-up"><strong>Site vitrine à partir de 59&nbsp;€/mois. Menu interactif et réservation avec Commerce+ à 199&nbsp;€/mois.</strong><br>Création, mise en ligne, hébergement et accompagnement inclus. Sans gros investissement initial. Tous les prix sont hors TVA. Résiliation possible chaque mois.</p>
-      <div class="subscription-note fade-up">
-        <h3>Que se passe-t-il si vous arrêtez&nbsp;?</h3>
-        <p>LokWeb héberge et maintient le site pendant l'abonnement. À la résiliation, le service et le site LokWeb sont désactivés à la fin du mois en cours. Votre nom de domaine enregistré à votre nom et les contenus que vous avez fournis restent les vôtres. Les modalités définitives sont précisées dans les conditions contractuelles remises avant toute souscription.</p>
-      </div>
+      <p class="pricing-note">Le nom de domaine, les licences payantes et les travaux supplémentaires sont chiffrés avant votre accord. Publicité, réseaux sociaux, rédaction spécialisée, traductions, photographie, boutique, paiement en ligne et développements métier spécifiques ne sont pas compris.</p>
     </div>
   </section>
 
-  <!-- ========== PROJETS RÉCENTS ========== -->
-  <section id="projets" class="section section-dark">
-    <div class="container">
-      <h2 class="section-title fade-up">Projets récents</h2>
-      <div class="portfolio-grid">
-
-        <div class="portfolio-card fade-up">
-          <div class="portfolio-img">
-            <img src="public/images/schmoett.png" alt="Aperçu du site schmoett.lu" loading="lazy" decoding="async">
-          </div>
-          <div class="portfolio-info">
-            <h3>Schmoett</h3>
-            <p>Restaurant réel à Schifflange · Site mobile, carte interactive, Click &amp; Collect et paiement Stripe.</p>
-            <span class="portfolio-proof"><i data-lucide="badge-check"></i> Projet réel et consultable</span>
-            <a href="https://schmoett.lu" target="_blank" rel="noopener" class="portfolio-link" aria-label="Voir le site schmoett.lu (nouvelle fenêtre)">Voir le site <i data-lucide="external-link"></i></a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== À PROPOS ========== -->
-  <section id="a-propos" class="section section-light">
+  <section id="comment-ca-marche" class="section section-light process-section"><div class="container"><span class="section-label">De l’échange au lancement</span><h2 class="section-title">Quatre étapes, avec votre accord.</h2><div class="steps">
+<div class="step fade-up"><div class="step-number">1</div><h3>Un premier échange</h3><p>En 15 minutes, nous vérifions le besoin, les contenus disponibles et le budget. Un aperçu limité à un écran peut ensuite être présenté si cela aide votre décision.</p></div><div class="step fade-up"><div class="step-number">2</div><h3>Un périmètre écrit</h3><p>Vous validez les pages, les options, le prix du domaine et les conditions. Les 290&nbsp;€ de mise en service sont réglés après cet accord, avant la production complète.</p></div><div class="step fade-up"><div class="step-number">3</div><h3>La création</h3><p>Première version sous sept jours ouvrés après paiement et réception de tous les contenus et accès. Le calendrier est suspendu en attendant vos éléments ou validations.</p></div><div class="step fade-up"><div class="step-number">4</div><h3>Votre validation, puis le lancement</h3><p>Le site est publié après votre validation écrite. L’abonnement de 99&nbsp;€ HT/mois commence à la mise en ligne. L’hébergement et le suivi prennent le relais.</p></div></div></div></section>
+  <section id="pourquoi" class="section section-dark"><div class="container faq-container"><span class="section-label">Avant de vous engager</span><h2 class="section-title">Les réponses utiles.</h2><div class="faq-list">
+<details><summary>Que comprend la création de mon site&nbsp;?</summary><p>Jusqu’à cinq pages commerciales en français et deux pages légales supplémentaires pour un établissement ou une activité principale. Nous partons de vos informations et photos, avec une réécriture légère, jusqu’à 1&nbsp;200 mots et 15 photos, et deux séries de retours regroupés. Le périmètre est écrit avant votre accord.</p></details><details><summary>Quel est le coût total&nbsp;?</summary><p>290&nbsp;€ HT de mise en service, puis 99&nbsp;€ HT/mois à partir de la mise en ligne validée. Cela représente 1&nbsp;478&nbsp;€ HT sur douze mois, sans engagement de douze mois. Le domaine, son renouvellement et toute option payante sont chiffrés avant votre accord.</p></details><details><summary>Comment fonctionnent les modifications&nbsp;?</summary><p>Vous disposez de 30 minutes par mois, non cumulables, pour modifier des textes, horaires, tarifs ou photos. Les erreurs de notre livraison sont corrigées sans décompter ce quota. Premier retour sous un jour ouvré et délai cible de cinq jours ouvrés pour une modification courante. Un premier retour ne signifie pas une résolution immédiate. Les travaux supplémentaires nécessitent votre accord sur un devis.</p></details><details><summary>Que se passe-t-il si j’arrête&nbsp;?</summary><p>Vous résiliez par email. Le service et le site sont désactivés à la fin de la période mensuelle déjà payée. Vous conservez le domaine enregistré à votre nom et vos textes et photos. Vous pouvez demander l’export de vos contenus et données exportables dans les 30 jours suivant la fin du service. Le code, les outils et les licences non transférables ne sont pas cédés&nbsp;; une migration ou un achat du site demande un accord distinct.</p></details></div></div></section>  <section id="a-propos" class="section section-light">
     <div class="container">
       <div class="about-grid">
         <div class="about-visual fade-up">
@@ -381,65 +169,34 @@
         <div class="about-content fade-up" style="animation-delay:.1s">
           <span class="section-label about-label">Fondateur</span>
           <h2 class="about-title">Emmanuel, restaurateur et fondateur de LokWeb</h2>
-          <p>Je suis restaurateur au Luxembourg. J'ai créé LokWeb parce que je voyais trop de commerces perdre des clients simplement à cause d'un site dépassé, difficile à utiliser sur téléphone ou mal présenté sur Google.</p>
+          <p>Je suis restaurateur au Luxembourg. J’ai créé LokWeb pour aider les entreprises locales à présenter leur travail clairement et à simplifier la prise de contact, en m’appuyant aussi sur l’expérience de mon propre établissement.</p>
           <p>Mon objectif est simple&nbsp;: créer des sites utiles, clairs et pensés pour aider les entreprises locales à obtenir davantage de contacts, de réservations et de clients.</p>
-          <p class="about-note fade-up">Basé à Schifflange, je travaille avec des commerçants et artisans du Luxembourg francophone.</p>
+          <p class="about-note fade-up">Basé à Schifflange, je m’adresse aux commerçants et artisans du Luxembourg francophone.</p>
           <div class="about-badges">
             <span class="about-badge"><i data-lucide="map-pin"></i>Basé au Luxembourg</span>
-            <span class="about-badge"><i data-lucide="unlock"></i>Sans engagement</span>
+            <span class="about-badge"><i data-lucide="unlock"></i>Résiliable chaque mois</span>
             <span class="about-badge"><i data-lucide="user"></i>Un seul interlocuteur</span>
           </div>
-          <a href="#contact" class="btn btn-outline about-cta">Me contacter directement <i data-lucide="arrow-right"></i></a>
+          <a href="#contact" data-contact-source="a_propos" class="btn btn-outline about-cta">Me contacter directement <i data-lucide="arrow-right"></i></a>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- ========== PROCESS ========== -->
-  <section class="section section-light">
-    <div class="container">
-      <span class="section-label fade-up">Notre méthode</span>
-      <h2 class="section-title fade-up">De l'idée à la mise en ligne</h2>
-      <div class="process-grid">
-        <div class="process-step fade-up">
-          <div class="process-num">01</div>
-          <h3>Échange</h3>
-          <p>Un appel de 15 minutes pour comprendre votre activité et vos besoins.</p>
-        </div>
-        <div class="process-step fade-up" style="animation-delay:.1s">
-          <div class="process-num">02</div>
-          <h3>Maquette</h3>
-          <p>Une première proposition visuelle sous 24&nbsp;h ouvrées. Gratuite et sans engagement.</p>
-        </div>
-        <div class="process-step fade-up" style="animation-delay:.2s">
-          <div class="process-num">03</div>
-          <h3>Développement</h3>
-          <p>On construit votre site. Vous validez à chaque étape.</p>
-        </div>
-        <div class="process-step fade-up" style="animation-delay:.3s">
-          <div class="process-num">04</div>
-          <h3>Mise en ligne</h3>
-          <p>Votre site est en production. On gère l'hébergement et la maintenance.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CTA FINAL ========== -->
-  <section class="section section-dark section-cta">
-    <div class="container" style="text-align:center">
-      <h2 class="section-title fade-up">Prêt à passer en ligne&nbsp;?</h2>
-      <p class="section-sub fade-up">Recevez une première proposition visuelle sous 24&nbsp;h ouvrées.<br>Gratuite, sans engagement, sans blabla.</p>
-      <a href="#contact" class="btn btn-lg fade-up" style="animation-delay:.1s">Recevoir ma démo <i data-lucide="arrow-right"></i></a>
-    </div>
-  </section>
-
-  <!-- ========== CONTACT ========== -->
-  <section id="contact" class="section section-light">
-    <div class="container">
-      <span class="section-label fade-up">Parlons-en</span>
-      <h2 class="section-title fade-up">Contact</h2>
-      <div class="contact-grid">
+  <section id="contact" class="section section-light"><div class="container"><span class="section-label">Un premier échange sans frais</span><h2 class="section-title">Parlons de votre site</h2><p class="section-sub">Indiquez votre entreprise et votre email. Je vous réponds sous un jour ouvré pour comprendre votre besoin et convenir d’un échange.</p>
+    <div class="contact-grid">
+      <form class="contact-form" action="https://formspree.io/f/mbdqygnw" method="POST">
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="offer" id="contact-offer" value="Général">
+        <input type="hidden" name="source" id="contact-source" value="contact_direct">
+        <p id="contact-context" class="contact-context" hidden></p>
+        <div class="form-group"><label for="name">Votre entreprise</label><input type="text" id="name" name="name" autocomplete="organization" required maxlength="160" placeholder="Nom de votre entreprise"></div>
+        <div class="form-group"><label for="email">Votre email</label><input type="email" id="email" name="email" autocomplete="email" required maxlength="254" placeholder="vous@entreprise.lu"></div>
+        <div class="form-group"><label for="website">Votre site actuel, si vous en avez un <span>(facultatif)</span></label><input type="text" inputmode="url" id="website" name="website" autocomplete="url" maxlength="500" placeholder="www.votre-entreprise.lu"></div>
+        <div class="form-group"><label for="message">Votre besoin en quelques mots <span>(facultatif)</span></label><textarea id="message" name="message" rows="3" maxlength="3000" placeholder="Créer un site, présenter vos prestations, faciliter les demandes…"></textarea></div>
+        <p class="form-privacy">Ces informations servent à répondre à votre demande. <a href="politique-de-confidentialite.html">Confidentialité et droits</a>.</p>
+        <div id="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+        <button type="submit" class="btn btn-block">Demander un échange <i data-lucide="send"></i></button>
+      </form>
         <div class="contact-info fade-up">
           <div class="contact-item">
             <i data-lucide="mail"></i>
@@ -452,7 +209,7 @@
             <i data-lucide="message-circle"></i>
             <div>
               <strong>WhatsApp</strong>
-              <a href="https://wa.me/352661474130?text=Bonjour%20LokWeb%2C%20je%20souhaite%20faire%20le%20test%20MENU%20pour%20mon%20restaurant." target="_blank" rel="noopener">+352&nbsp;661&nbsp;47&nbsp;41&nbsp;30</a>
+              <a href="https://wa.me/352661474130?text=Bonjour%20Emmanuel%2C%20je%20souhaite%20%C3%A9changer%20au%20sujet%20du%20site%20de%20mon%20entreprise." target="_blank" rel="noopener">+352&nbsp;661&nbsp;47&nbsp;41&nbsp;30</a>
             </div>
           </div>
           <div class="contact-item">
@@ -473,31 +230,15 @@
             <i data-lucide="clock"></i>
             <div>
               <strong>Disponibilité</strong>
-              <span>Réponse WhatsApp sous 24&nbsp;h ouvrées</span>
+              <span>Premier retour sous un jour ouvré</span>
             </div>
           </div>
         </div>
-        <form class="contact-form fade-up" style="animation-delay:.1s" action="https://formspree.io/f/mbdqygnw" method="POST">
-          <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <div class="form-group">
-            <label for="name">Nom</label>
-            <input type="text" id="name" name="name" required placeholder="Votre nom">
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="votre@email.lu">
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required placeholder="Décrivez votre projet en quelques lignes..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-block">Envoyer le message <i data-lucide="send"></i></button>
-        </form>
-      </div>
-    </div>
-  </section>
 
-  <!-- ========== FOOTER ========== -->
+    </div>
+    <div id="test-menu" class="restaurant-contact"><p><strong>Vous gérez un restaurant ou un snack&nbsp;?</strong> Faisons le point sur votre menu et votre site.</p><a href="https://wa.me/352661474130?text=Bonjour%20Emmanuel%2C%20je%20souhaite%20faire%20le%20point%20sur%20le%20menu%20et%20le%20site%20de%20mon%20restaurant." target="_blank" rel="noopener" class="text-link">Parler de mon restaurant sur WhatsApp <i data-lucide="external-link"></i></a></div>
+  </div></section>
+  </main>
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-brand">
@@ -510,7 +251,7 @@
           <a href="#comment-ca-marche">Comment ça marche</a>
           <a href="#services">Services</a>
           <a href="#tarifs">Tarifs</a>
-          <a href="#projets">Projets récents</a>
+          <a href="#projets">Un exemple</a>
           <a href="#a-propos">À propos</a>
           <a href="#contact">Contact</a>
         </div>
@@ -530,7 +271,7 @@
   </footer>
 
   <!-- WhatsApp floating widget -->
-  <a href="https://wa.me/352661474130?text=Bonjour%20LokWeb%2C%20je%20souhaite%20faire%20le%20test%20MENU%20pour%20mon%20restaurant." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Demander le test MENU à LokWeb sur WhatsApp (nouvelle fenêtre)">
+  <a href="https://wa.me/352661474130?text=Bonjour%20Emmanuel%2C%20je%20souhaite%20%C3%A9changer%20au%20sujet%20du%20site%20de%20mon%20entreprise." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contacter Emmanuel sur WhatsApp (nouvelle fenêtre)">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
   </a>
 

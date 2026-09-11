@@ -9,7 +9,7 @@
   --text-dark: #111318;
   --text-muted: #5B6170;
   --text-on-dark: #E7E5DF;
-  --text-muted-on-dark: #8B8F9A;
+  --text-muted-on-dark: #ADB1BC;
   --primary: #2F5CFF;
   --primary-hover: #1A45E0;
   --accent: #F59E0B;
@@ -627,7 +627,7 @@ img { max-width: 100%; display: block; }
 
 /* ---- Contact ---- */
 .contact-grid {
-  display: grid; grid-template-columns: 1fr 1.2fr;
+  display: grid; grid-template-columns: 1.2fr 1fr;
   gap: 64px; margin-top: 56px;
 }
 .contact-info { display: flex; flex-direction: column; gap: 28px; }
@@ -771,6 +771,61 @@ img { max-width: 100%; display: block; }
   .fade-up { opacity: 1; transform: none; transition: none; }
 }
 
+/* ---- Business Local ---- */
+.hero .badge { font-size: .67rem; padding: 6px 12px; }
+.hero-sub { font-size: 1rem; margin-bottom: 22px; }
+.hero-price { color: var(--white); font-size: 1.14rem; line-height: 1.55; }
+.hero-price-note { color: var(--text-muted-on-dark); font-size: .81rem; margin: 8px 0 24px; }
+.hero-actions { margin-bottom: 16px; }
+.hero-legal-note { font-size: .78rem; max-width: 480px; }
+.hero-proof { margin: 20px auto 0; color: var(--text-muted-on-dark); text-align: center; font-size: .86rem; }
+.hero-proof a { color: var(--text-on-dark); text-decoration: underline; text-underline-offset: 4px; }
+.hero .carousel-track { aspect-ratio: 2 / 1; }
+.proof-section { padding: 52px 0; }
+.proof-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 64px; align-items: center; }
+.proof-grid .section-label { text-align: left; }
+.proof-grid h2 { font-size: clamp(1.5rem, 2.6vw, 2.1rem); line-height: 1.25; }
+.proof-grid p { color: var(--text-muted); margin-bottom: 14px; }
+.proof-grid .proof-note { font-size: .82rem; }
+.service-note { color: var(--text-muted-on-dark); max-width: 780px; font-size: .82rem; text-align: center; margin: 28px auto 0; }
+.business-offer { display: grid; grid-template-columns: .9fr 1.1fr; margin: 42px auto 0; border: 1px solid var(--border-light); border-radius: var(--radius-xl); background: var(--white); overflow: hidden; box-shadow: var(--shadow-md); }
+.offer-summary { padding: 40px; background: #F0F3FF; }
+.offer-kicker { font-size: .72rem; color: var(--text-muted); }
+.offer-summary h3 { font-size: 1.7rem; margin: 8px 0 22px; }
+.setup-price { font-weight: 600; font-size: 1.25rem; }
+.setup-price span { display: block; font-size: .85rem; color: var(--text-muted); font-weight: 400; }
+.monthly-price { font-size: 3rem; font-weight: 700; letter-spacing: -.03em; margin: 4px 0; }
+.monthly-price span { font-size: .9rem; font-weight: 400; letter-spacing: 0; }
+.offer-total { font-size: .85rem; color: var(--text-muted); margin: 14px 0 24px; }
+.offer-whatsapp { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 16px; font-size: .87rem; text-decoration: underline; text-underline-offset: 4px; }
+.offer-whatsapp svg, .restaurant-contact svg { width: 15px; height: 15px; vertical-align: middle; }
+.offer-details { padding: 40px; }
+.offer-details h3 { font-size: 1.1rem; margin-bottom: 20px; }
+.offer-details .pricing-features { margin-bottom: 20px; }
+.offer-details .pricing-features li { align-items: flex-start; }
+.offer-details .pricing-features svg { width: 18px; min-width: 18px; height: 18px; margin-top: 3px; color: var(--primary); }
+.offer-terms { font-size: .82rem; color: var(--text-muted); margin-bottom: 16px; }
+.text-link { color: var(--primary); font-weight: 600; font-size: .87rem; text-decoration: underline; text-underline-offset: 4px; }
+.pricing-note { max-width: 880px; font-size: .83rem; margin: 22px auto 0; }
+.process-section { padding-top: 24px; }
+.faq-container { max-width: 900px; }
+.faq-list { margin-top: 36px; }
+.faq-list details { border-bottom: 1px solid #343A48; padding: 20px 0; }
+.faq-list summary { font-weight: 600; cursor: pointer; color: var(--white); padding-right: 16px; }
+.faq-list p { color: var(--text-muted-on-dark); margin-top: 14px; font-size: .93rem; }
+.contact-context { padding: 14px 16px; border-left: 3px solid var(--primary); background: #EDF0FC; border-radius: 4px; font-size: .87rem; }
+.form-group label span { color: var(--text-muted); font-weight: 400; }
+.form-privacy { color: var(--text-muted); font-size: .76rem; }
+.form-privacy a { text-decoration: underline; text-underline-offset: 3px; }
+#form-status:empty { display: none; }
+#form-status { border-radius: 6px; padding: 12px; font-size: .9rem; background: #EDF0FC; }
+#form-status[role="alert"] { color: #9A2135; background: #FFF0F2; }
+.btn:disabled { opacity: .7; cursor: wait; transform: none; }
+.restaurant-contact { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border-light); color: var(--text-muted); font-size: .88rem; }
+.restaurant-contact p { margin-bottom: 6px; }
+.nav-links .btn:not(.btn-whatsapp) { color: white; }
+.nav-links .btn-whatsapp { color: #07140C; }
+
 /* ============================
    Responsive
    ============================ */
@@ -792,6 +847,9 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 860px) {
+  .business-offer, .proof-grid { grid-template-columns: 1fr; }
+  .proof-grid { gap: 24px; }
+  .hero-legal-note { margin-left: auto; margin-right: auto; }
   .hero { padding: 120px 0 64px; }
   .hero-grid { grid-template-columns: 1fr; text-align: center; }
   .hero-sub { margin-left: auto; margin-right: auto; }
@@ -866,6 +924,12 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 640px) {
+  .offer-summary, .offer-details { padding: 28px 24px; }
+  .monthly-price { font-size: 2.5rem; }
+  .hero .badge { letter-spacing: .02em; }
+  .hero-price-note br { display: none; }
+  .form-group input, .form-group textarea { font-size: 1rem; min-width: 0; }
+  .contact-grid { margin-top: 32px; }
   .hero { padding: 100px 0 48px; }
   .hero h1 { font-size: 1.7rem; }
   .hero-stats { flex-direction: column; gap: 20px; align-items: center; }

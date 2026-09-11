@@ -13,6 +13,12 @@
 
   var STORAGE_KEY = 'lokweb_cookie_consent';
   var META_PIXEL_ID = '1725814988619634';
+  var currentConsent = { necessary: true, marketing: false };
+
+  // État courant, y compris lorsque le stockage du navigateur est indisponible.
+  window.lokwebConsent = Object.freeze({
+    hasMarketingConsent: function () { return currentConsent.marketing === true; }
+  });
 
   /* -------- Persistance -------- */
   function readConsent() {
@@ -37,8 +43,11 @@
 
   /* -------- Pixel Meta (chargé uniquement sur consentement marketing) -------- */
   function loadMetaPixel() {
-    if (window.fbq) {                    // déjà chargé : on (re)déclenche un PageView
-      try { window.fbq('track', 'PageView'); } catch (e) {}
+    if (window.fbq) {                    // réautorise après un éventuel retrait
+      try {
+        window.fbq('consent', 'grant');
+        window.fbq('track', 'PageView');
+      } catch (e) {}
       return;
     }
     /* Snippet officiel Meta, exécuté seulement ici (après consentement) */
@@ -65,7 +74,8 @@
 
   /* Applique les conséquences techniques d'un consentement donné. */
   function applyConsent(consent) {
-    if (consent && consent.marketing) {
+    currentConsent = { necessary: true, marketing: !!consent && consent.marketing === true };
+    if (currentConsent.marketing) {
       loadMetaPixel();
     } else {
       disableMetaPixel();
@@ -146,6 +156,15 @@
       show(banner);
     }
 
+    // Un retrait dans un autre onglet prend effet dans celui-ci immédiatement.
+    window.addEventListener('storage', function (event) {
+      if (event.key !== STORAGE_KEY && event.key !== null) return;
+      var consent = readConsent();
+      applyConsent(consent);
+      if (consent) hide(banner);
+      else show(banner);
+    });
+
     function setAll(value) {
       var consent = { necessary: true, marketing: value };
       saveConsent(consent);
@@ -156,7 +175,7 @@
 
     function openModal() {
       var c = readConsent() || { marketing: false };
-      marketingInput.checked = !!c.marketing;
+      marketingInput.checked = c.marketing === true;
       hide(banner);
       show(overlay);
     }
