@@ -181,7 +181,89 @@ img { max-width: 100%; display: block; }
   line-height: 1.45;
 }
 
-/* Hero mockup / carousel */
+/* Restaurant gallery: the photography and website preview remain separate layers. */
+.hero-gallery {
+  max-width: 600px;
+  margin-left: auto;
+}
+.hero-gallery-stage {
+  display: grid;
+  grid-template-columns: 47% 53%;
+  aspect-ratio: 8 / 5;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #e9eff7;
+  box-shadow: 0 26px 70px rgba(0, 0, 0, .28);
+}
+.hero-gallery-stage.is-changing { opacity: .65; transform: scale(.99); }
+.hero-gallery-stage { transition: opacity .25s ease, transform .25s ease; }
+.hero-gallery-source { position: relative; min-width: 0; overflow: hidden; }
+.hero-gallery-source img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 43% center;
+}
+.hero-gallery-source-label {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  padding: 8px 11px;
+  border-radius: 999px;
+  background: rgba(10, 19, 35, .8);
+  color: #fff;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.hero-gallery-site {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 24px 18px 24px 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 16px 36px rgba(11, 30, 61, .22);
+}
+.hero-gallery-browser {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 23px;
+  padding: 0 9px;
+  background: #f1f4f9;
+}
+.hero-gallery-browser span { width: 5px; height: 5px; border-radius: 50%; background: #b9c5d4; }
+.hero-gallery-browser p { margin: 0 auto; color: #66778e; font-size: .5rem; }
+.hero-gallery-site-photo { height: 44%; overflow: hidden; }
+.hero-gallery-site-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 52%; }
+.hero-gallery-site-body { display: flex; flex-direction: column; align-items: flex-start; gap: 9px; padding: 16px 18px; color: #172944; }
+.hero-gallery-kicker { color: #2d68b8; font-size: .59rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.hero-gallery-site-body strong { font-size: clamp(.85rem, 1.5vw, 1.2rem); line-height: 1.2; }
+.hero-gallery-cta { display: inline-flex; gap: 15px; align-items: center; padding: 8px 10px; border-radius: 5px; background: #3175d9; color: #fff; font-size: .58rem; font-weight: 700; }
+.hero-gallery-controls { display: none; justify-content: center; align-items: center; gap: 12px; min-height: 48px; color: #fff; }
+.hero-gallery.is-enhanced .hero-gallery-controls { display: flex; }
+.hero-gallery-arrow { width: 32px; height: 32px; border: 1px solid rgba(255,255,255,.4); border-radius: 50%; background: transparent; color: #fff; font: inherit; font-size: 1.25rem; line-height: 1; cursor: pointer; }
+.hero-gallery-arrow:hover, .hero-gallery-arrow:focus-visible { background: rgba(255,255,255,.16); }
+.hero-gallery-status { min-width: 135px; text-align: center; font-size: .72rem; font-weight: 700; }
+.hero-motion-toggle {
+  padding: 6px 8px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text-muted-on-dark);
+  font: inherit;
+  font-size: .68rem;
+  cursor: pointer;
+}
+.hero-motion-toggle:hover,
+.hero-motion-toggle:focus-visible { color: var(--white); }
+@media (prefers-reduced-motion: reduce) {
+  .hero-gallery-stage { transition: none; }
+  .hero-motion-toggle { display: none; }
+}
 .hero-mockup {
   background: #0F1320;
   border-radius: 12px;
@@ -856,6 +938,7 @@ img { max-width: 100%; display: block; }
   .hero-actions { justify-content: center; }
   .hero-stats { justify-content: center; }
   .hero-mockup { margin: 0 auto; max-width: 460px; }
+  .hero-gallery { margin: 0 auto; max-width: 600px; }
 
   .steps { grid-template-columns: repeat(2, 1fr); }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
@@ -924,6 +1007,15 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 640px) {
+  .hero-gallery-stage { grid-template-columns: 1fr; grid-template-rows: 46% 54%; aspect-ratio: 4 / 5; }
+  .hero-gallery-source img { object-position: center 42%; }
+  .hero-gallery-site { margin: -16px 14px 14px; position: relative; }
+  .hero-gallery-site-photo { height: 37%; }
+  .hero-gallery-site-body { gap: 5px; padding: 9px 12px; }
+  .hero-gallery-site-body strong { font-size: .9rem; }
+  .hero-gallery-cta { padding: 6px 8px; }
+  .hero-gallery-controls { gap: 7px; }
+  .hero-gallery-status { min-width: 118px; font-size: .64rem; }
   .offer-summary, .offer-details { padding: 28px 24px; }
   .monthly-price { font-size: 2.5rem; }
   .hero .badge { letter-spacing: .02em; }

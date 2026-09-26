@@ -48,32 +48,71 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   document.querySelectorAll('.fade-up').forEach(el => el.classList.add('visible'));
 }
 
-// ---- Carrousel hero ----
-(function initHeroCarousel() {
-  const carousel = document.getElementById('hero-carousel');
-  const urlEl = document.getElementById('mockup-url');
-  if (!carousel || !urlEl) return;
+// ---- Galerie de restaurants du hero ----
+const heroGallery = document.getElementById('hero-gallery');
+if (heroGallery) {
+  heroGallery.classList.add('is-enhanced');
+  const examples = [
+    { label: 'Pizzeria', image: 'pizzeria.jpg', alt: 'Pizzaiolo préparant une pizza dans son restaurant', headline: 'Des pizzas faites avec soin.', cta: 'Découvrir la carte' },
+    { label: 'Snack', image: 'snack.jpg', alt: 'Restaurateur préparant un burger dans son snack', headline: 'La pause qui donne envie.', cta: 'Voir notre menu' },
+    { label: 'Kebab', image: 'kebab.jpg', alt: 'Cuisinier préparant un kebab dans son restaurant', headline: 'Préparé devant vous.', cta: 'Voir les spécialités' },
+    { label: 'Brasserie', image: 'brasserie.jpg', alt: 'Équipe dressant des plats dans une brasserie', headline: 'Une table à partager.', cta: 'Découvrir le restaurant' },
+    { label: 'Cuisine ouest-africaine', image: 'africaine.jpg', alt: 'Chef dressant un plat de riz jollof dans son restaurant', headline: 'Des saveurs à découvrir.', cta: 'Explorer la carte' },
+    { label: 'Cuisine chinoise', image: 'chinoise.jpg', alt: 'Chef préparant des raviolis dans son restaurant', headline: 'Le plaisir du fait maison.', cta: 'Découvrir nos plats' }
+  ];
+  const stage = document.getElementById('hero-gallery-stage');
+  const photo = document.getElementById('hero-gallery-photo');
+  const preview = document.getElementById('hero-gallery-preview');
+  const kicker = document.getElementById('hero-gallery-kicker');
+  const headline = document.getElementById('hero-gallery-headline');
+  const cta = document.getElementById('hero-gallery-cta');
+  const status = document.getElementById('hero-gallery-status');
+  const toggle = document.getElementById('hero-motion-toggle');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let current = 0;
+  let timer = null;
+  let pausedByUser = reducedMotion.matches;
+  let changeTimeout = null;
+  examples.slice(1).forEach(example => {
+    const preload = new Image();
+    preload.src = `public/images/restaurants/${example.image}`;
+  });
 
-  const slides = carousel.querySelectorAll('.carousel-slide');
-  if (slides.length < 2) return;
+  function showExample(index) {
+    current = (index + examples.length) % examples.length;
+    const example = examples[current];
+    stage.classList.add('is-changing');
+    window.clearTimeout(changeTimeout);
+    changeTimeout = window.setTimeout(() => {
+      const path = `public/images/restaurants/${example.image}`;
+      photo.src = path;
+      photo.alt = example.alt;
+      preview.src = path;
+      kicker.textContent = example.label;
+      headline.textContent = example.headline;
+      cta.innerHTML = `${example.cta} <span aria-hidden="true">↗</span>`;
+      status.textContent = `${example.label} · ${current + 1} sur ${examples.length}`;
+      stage.classList.remove('is-changing');
+    }, reducedMotion.matches ? 0 : 180);
+  }
 
-  const setActive = (i) => {
-    slides.forEach((s, idx) => s.classList.toggle('is-active', idx === i));
-    const url = slides[i].dataset.url;
-    if (url) urlEl.textContent = url;
-  };
+  function syncTimer() {
+    window.clearInterval(timer);
+    timer = null;
+    if (!pausedByUser && !document.hidden && !reducedMotion.matches) {
+      timer = window.setInterval(() => showExample(current + 1), 4500);
+    }
+    toggle.textContent = pausedByUser ? 'Défiler' : 'Pause';
+    toggle.setAttribute('aria-label', pausedByUser ? 'Relancer le défilement' : 'Mettre en pause le défilement');
+  }
 
-  setActive(0);
-
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
-  if (reduced.matches) return;
-
-  let index = 0;
-  setInterval(() => {
-    index = (index + 1) % slides.length;
-    setActive(index);
-  }, 4000);
-})();
+  document.getElementById('hero-gallery-prev').addEventListener('click', () => { showExample(current - 1); syncTimer(); });
+  document.getElementById('hero-gallery-next').addEventListener('click', () => { showExample(current + 1); syncTimer(); });
+  toggle.addEventListener('click', () => { pausedByUser = !pausedByUser; syncTimer(); });
+  document.addEventListener('visibilitychange', syncTimer);
+  reducedMotion.addEventListener('change', syncTimer);
+  syncTimer();
+}
 
 // ---- Mesure des intentions et transmissions (sans données du formulaire) ----
 function trackContactEvent(name, parameters) {
